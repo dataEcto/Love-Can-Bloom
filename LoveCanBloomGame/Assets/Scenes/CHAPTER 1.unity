@@ -1733,7 +1733,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2.5087147
     y: 21.418259
-    width: 132.47293
+    width: 137.33528
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1771,21 +1771,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -380.51062, y: -1038.6099}
+  scrollPos: {x: 36.58149, y: -46.08248}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 287
-  zoom: 0.70326096
+  zoom: 0.9732607
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 436806564}
-  selectedCommands:
-  - {fileID: 436806655}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2053,7 +2051,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 241
     y: 60
-    width: 168.02162
+    width: 169.18698
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2351,7 +2349,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 19.724487
     y: 197.24596
-    width: 131.051
+    width: 132.1979
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2436,7 +2434,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 217
     y: 122
-    width: 220.63367
+    width: 224.67056
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2788,7 +2786,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 134.2571
     y: 252.74707
-    width: 281.7774
+    width: 287.3465
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2844,7 +2842,7 @@ MonoBehaviour:
   indentLevel: 0
   text: So what are you going do?
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 436806609}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -3008,7 +3006,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 24.096115
     y: 332.09647
-    width: 247.65067
+    width: 250.35742
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3083,7 +3081,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 292.88116
     y: 586.3469
-    width: 172.28748
+    width: 174.32434
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3232,7 +3230,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 356.26538
     y: 493.7005
-    width: 240.54094
+    width: 247.275
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -3349,7 +3347,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 337.386
     y: 411.89783
-    width: 274.66766
+    width: 281.18164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3392,7 +3390,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 452.8062
     y: 781.50134
-    width: 129.62904
+    width: 131.17044
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3573,7 +3571,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 613.0499
     y: 689.803
-    width: 220.63367
+    width: 222.61562
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4109,7 +4107,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 662.6821
     y: 847.10864
-    width: 321.59192
+    width: 328.44543
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4504,7 +4502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 860.74274
     y: 1175.1533
-    width: 342.92114
+    width: 350.0224
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4701,7 +4699,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 416.05765
     y: 1043.729
-    width: 222.05562
+    width: 225.69804
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4757,7 +4755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 119
   indentLevel: 0
-  text: I lost my umbrella!
+  text: It doesn't exist!
   description: 
   targetBlock: {fileID: 436806622}
   hideIfVisited: 0
@@ -4878,7 +4876,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 707.6821
     y: 943.5306
-    width: 219.21173
+    width: 222.61562
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -5208,7 +5206,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1058.8523
     y: 1252.0033
-    width: 183.66304
+    width: 187.6815
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6261,7 +6259,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 503.68848
     y: 264.13654
-    width: 210.68004
+    width: 210.28593
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6334,7 +6332,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 329.08844
     y: 323.0941
-    width: 256.18237
+    width: 258.5772
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6415,7 +6413,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 391.014
     y: 201.24837
-    width: 200.72641
+    width: 200.0112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -6495,7 +6493,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 229.5158
     y: 192.07721
-    width: 155.22409
+    width: 154.80234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -6543,10 +6541,11 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CI lost my umbrella a few days ago!\u201D\r\nDESSY: \u201Cthen
-      why did you not mention it till now\u2026? Would have saved us a lot of time.\u201D\r\nDESSY:
-      \u201Cunless you\u2019re lying, hmm?\u201D\r\nTRAVIS: \u201CUgh-No, damn. Let
-      me try again.\u201D\r\n\n"
+    stringVal: "TRAVIS: \u201CI lost my umbrella a few days ago!\u201D\r\n\nTRAVIS:
+      \"And now it's lost forever.\"\n\nTRAVIS: \"If it doesn't exist, then...IT DOESN'T
+      EXIST!\"\n\nDESSY: \u201Cthen why did you not mention it till now\u2026? Would
+      have saved us a lot of time.\u201D\r\n\nDESSY: \u201Cunless you\u2019re lying,
+      hmm?\u201D\r\n\nTRAVIS: \u201CUgh-No, damn. Let me try again.\u201D\r\n\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6686,7 +6685,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 905.91034
     y: 1048.9274
-    width: 136.73878
+    width: 137.33528
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6881,7 +6880,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 958.66486
     y: 712.2142
-    width: 150.95825
+    width: 154.80234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7072,7 +7071,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 694.62573
     y: 779.033
-    width: 145.27048
+    width: 145.55508
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7280,7 +7279,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &436806654
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7298,7 +7297,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &436806655
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7315,7 +7314,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &436806656
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
