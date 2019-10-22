@@ -211,10 +211,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1960600957}
-  - {fileID: 224604764}
   - {fileID: 576667477}
+  - {fileID: 224604764}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -281,11 +281,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 224604761}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -800, y: -449.921, z: 0}
-  m_LocalScale: {x: 2.527646, y: 2.527646, z: 2.527646}
+  m_LocalPosition: {x: -800, y: -449.92096, z: 0}
+  m_LocalScale: {x: 2.5276458, y: 2.5276458, z: 2.5276458}
   m_Children: []
   m_Father: {fileID: 117061859}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &306138625
 GameObject:
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 576667477}
   - component: {fileID: 576667478}
   m_Layer: 5
-  m_Name: Progress Bar 1 (1)
+  m_Name: Dessy's Progress
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -464,7 +464,7 @@ RectTransform:
   - {fileID: 650121957}
   - {fileID: 1448064279}
   m_Father: {fileID: 117061859}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -673,7 +673,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &787486826
 MonoBehaviour:
@@ -687,7 +687,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9de42e628ae22534eae2d7d1a9b4b028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dealDamage: 0
+  travisWins: 0
   progressBarObject: {fileID: 1960600958}
+  scoreManager: {fileID: 0}
+  scoreScript: {fileID: 0}
+  shouldSendScore: 0
 --- !u!1 &1008313492
 GameObject:
   m_ObjectHideFlags: 0
@@ -844,6 +849,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053483805}
   m_CullTransparentMesh: 0
+--- !u!1 &1113125210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1113125211}
+  - component: {fileID: 1113125212}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1113125211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113125210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1113125212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113125210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b910543ada586a74384d22a625621bda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  travis: {fileID: 787486823}
+  dessy: {fileID: 1336273290}
+  travisBarScript: {fileID: 787486826}
+  dessyBarScript: {fileID: 1336273293}
 --- !u!1 &1336273290
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,6 +906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1336273292}
   - component: {fileID: 1336273291}
+  - component: {fileID: 1336273293}
   m_Layer: 0
   m_Name: DESSY.PNG
   m_TagString: Untagged
@@ -922,8 +975,23 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1336273293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336273290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12bc9f0c67bf4374a949628b2652f100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dealDamage: 0
+  dessyWins: 0
+  dessyProgressBar: {fileID: 576667478}
 --- !u!1 &1378038140
 GameObject:
   m_ObjectHideFlags: 1
@@ -966,7 +1034,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1448064278
 GameObject:
@@ -1015,7 +1083,7 @@ GameObject:
   - component: {fileID: 1960600957}
   - component: {fileID: 1960600958}
   m_Layer: 5
-  m_Name: Progress Bar 1
+  m_Name: Travis' Progress
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1028,7 +1096,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960600956}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1039,7 +1107,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -427, y: 247}
+  m_AnchoredPosition: {x: -427.00018, y: 246.99994}
   m_SizeDelta: {x: 604.3, y: 174.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960600958

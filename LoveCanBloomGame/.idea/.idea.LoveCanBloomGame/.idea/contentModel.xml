@@ -909,8 +909,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="DessyBar.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
-          <e p="ProgressBar.cs" t="Include" />
+          <e p="MashGameManager.cs" t="Include" />
+          <e p="ScoreManager.cs" t="Include" />
+          <e p="TravisBar.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

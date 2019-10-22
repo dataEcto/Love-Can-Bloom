@@ -4,17 +4,22 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ProgressBar : MonoBehaviour
+public class TravisBar : MonoBehaviour
 {
+    
     public float CurrentProgress { get; set; }
     public float MaxProgress { get; set; }
 
     public bool dealDamage;
     
-    public bool winAchieved;
+    public bool travisWins;
     
     public Slider progressBarObject;
-    
+
+    public GameObject scoreManager;
+    public ScoreManager scoreScript;
+
+    public bool shouldSendScore;
     
     void Start()
     {
@@ -24,16 +29,21 @@ public class ProgressBar : MonoBehaviour
         CurrentProgress = 0;
 
         dealDamage = true;
-        winAchieved = false;
+        travisWins = false;
   
         progressBarObject.value = CalculateProgress();
+
+        scoreManager = GameObject.Find("SCORE");
+        scoreScript = scoreManager.GetComponent<ScoreManager>();
+
+        shouldSendScore = false;
     }
 
     
     void Update()
     {
             //There are multiple ways we are going to make the health bar
-            //Decrease overtime.
+            //Decrease overtime.0
             if (dealDamage)
             {
                 DealDamage(10);
@@ -45,12 +55,23 @@ public class ProgressBar : MonoBehaviour
                 addProgress(5);
             }
 
-            if (CurrentProgress >= 100)
+            if (CurrentProgress >= 100 && travisWins == false) 
             {
-                Debug.Log("Win");
-                winAchieved = true;
-                dealDamage = false;
+                CurrentProgress = 99;
+                Debug.Log("Travis wins");
+                travisWins = true;
+                shouldSendScore = true;
+                dealDamage = false;         
             }
+            
+
+            if (travisWins && shouldSendScore)
+            {
+                scoreScript.travisActualScore = scoreScript.travisActualScore + 1;
+                shouldSendScore = false;
+            }
+
+      
           
     }
     
@@ -62,7 +83,7 @@ public class ProgressBar : MonoBehaviour
         //if the character is out of health, u die!
         if (CurrentProgress <= 0)
         {
-            //Die
+            damageValue = 0;
         }
     }
     
@@ -88,4 +109,6 @@ public class ProgressBar : MonoBehaviour
         }
 
     }
+
+  
 }

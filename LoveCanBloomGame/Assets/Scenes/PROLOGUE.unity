@@ -1194,11 +1194,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -104.26429, y: -56.227116}
+  scrollPos: {x: 452.34613, y: -360.66495}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 287
-  zoom: 0.76717377
+  zoom: 0.9471736
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1319,7 +1319,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 315.95465
     y: 32.376877
-    width: 194.6869
+    width: 212.58899
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1367,7 +1367,7 @@ MonoBehaviour:
   itemId: 7
   indentLevel: 0
   storyText: "Yet, I never thought I\u2019d be applying something like this in real
-    life, ever. Today was going to prove me wrong."
+    life, ever. "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1396,7 +1396,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 306.71445
     y: 180.57144
-    width: 195.99039
+    width: 212.58899
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1493,7 +1493,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 569.5551
     y: 183.54935
-    width: 190.77644
+    width: 207.31013
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1591,15 +1591,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 850.42114
     y: 251.96606
-    width: 199.90085
+    width: 218.92363
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 26
   blockName: 040 Introductions like that...
-  description: "Introductions like that are cliched, but it's the best I can do. I
-    don\u2019t think the world is rotten or anything like that, I just kind of live
-    life as it is. \r\n"
+  description: "Introductions like that are cliched, but it's the best I can do. \n"
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 431997948}
@@ -1669,14 +1667,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 473.76526
     y: 347.55057
-    width: 214.2392
+    width: 230.53712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 27
   blockName: 050 Right now, The school day
-  description: Right now, the school day has just ended. I stood outside of the school
-    building, underneath the awning, watching as it suddenly began to rain.
+  description: Right now, the school day has just ended. I'm standing outside of the
+    school building, underneath the awning, watching as it suddenly began to rain.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 431997951}
@@ -1747,15 +1745,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 139.64195
     y: 365.18042
-    width: 155.58234
+    width: 169.3023
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 28
   blockName: 060 Rain...If I recall
-  description: "Rain...If I recall correctly, my brother told me this morning it was
-    going to rain today. It\u2019s a good thing I took an umbrella before I left the
-    house this morning. \r\n\r\n"
+  description: "Rain...my brother told me this morning it was going to rain today.
+    It\u2019s a good thing I took an umbrella before I left the house this morning.
+    \r\n\r\n"
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 431997954}
@@ -1797,7 +1795,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "I swung my bag over my shoulder and fished out an orange foldable umbrella
     from it. Before I could press the button on the base to let it open, a familiar
-    girl stopped next to me.\r\n"
+    girl stops next to me.\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1824,17 +1822,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 48.659653
-    y: 192.07092
-    width: 186.866
+    x: -260.37628
+    y: 388.30878
+    width: 199.91972
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 29
   blockName: 070 I swung my bag over
-  description: "I swung my bag over my shoulder and fished out an orange foldable
-    umbrella from it. Before I could press the button on the base to let it open,
-    a familiar girl stopped next to me.\r\n\n"
+  description: "I swing my bag over my shoulder and fish out an orange foldable umbrella
+    from it. Before I can press the button on the base to let it open, a familiar
+    girl stops next to me.\r\n\n"
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 431997957}
@@ -2593,7 +2591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 431997933}
+  selectedFlowchart: {fileID: 688068049}
 --- !u!4 &656853991
 Transform:
   m_ObjectHideFlags: 1
@@ -2884,7 +2882,6 @@ GameObject:
   - component: {fileID: 688068027}
   - component: {fileID: 688068026}
   - component: {fileID: 688068025}
-  - component: {fileID: 688068024}
   - component: {fileID: 688068023}
   - component: {fileID: 688068051}
   - component: {fileID: 688068052}
@@ -2923,12 +2920,9 @@ GameObject:
   - component: {fileID: 688068082}
   - component: {fileID: 688068081}
   - component: {fileID: 688068087}
-  - component: {fileID: 688068086}
   - component: {fileID: 688068085}
   - component: {fileID: 688068084}
   - component: {fileID: 688068088}
-  - component: {fileID: 688068090}
-  - component: {fileID: 688068089}
   - component: {fileID: 688068095}
   - component: {fileID: 688068094}
   - component: {fileID: 688068093}
@@ -2961,14 +2955,15 @@ GameObject:
   - component: {fileID: 688068123}
   - component: {fileID: 688068122}
   - component: {fileID: 688068121}
-  - component: {fileID: 688068120}
-  - component: {fileID: 688068119}
   - component: {fileID: 688068129}
   - component: {fileID: 688068128}
   - component: {fileID: 688068127}
   - component: {fileID: 688068126}
-  - component: {fileID: 688068125}
   - component: {fileID: 688068130}
+  - component: {fileID: 688068133}
+  - component: {fileID: 688068132}
+  - component: {fileID: 688068131}
+  - component: {fileID: 688068024}
   m_Layer: 0
   m_Name: Flowchart 2
   m_TagString: Untagged
@@ -3009,7 +3004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 24
+  itemId: 126
   indentLevel: 0
   storyText: '"Hey, Felicity..."'
   description: 
@@ -3040,7 +3035,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -152.1586
     y: 517.92474
-    width: 140.72661
+    width: 148.79971
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3053,6 +3048,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 688068112}
   - {fileID: 688068024}
+  - {fileID: 688068133}
+  - {fileID: 688068131}
+  - {fileID: 688068132}
   - {fileID: 688068023}
 --- !u!114 &688068026
 MonoBehaviour:
@@ -3118,9 +3116,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 526.00543
-    y: 352.68033
-    width: 164.60204
+    x: 523.70197
+    y: 353.83206
+    width: 174.95259
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3199,15 +3197,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 781.71985
     y: 349.8232
-    width: 218.71967
+    width: 235.97595
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 27
   blockName: 120 Yet, she was standing next
-  description: Yet, she was standing next to me, hands in her hoodie pocket. She stood
-    there for a minute, not moving or making any indication that she was going to.
-    Was she ...getting comfy?
+  description: 'Yet, she''s standing next to me, hands in her hoodie pocket. '
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 688068030}
@@ -3247,9 +3243,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: "Right now, that was irrelevant. I was wondering what she was doing staying
-    underneath the awning. Usually, she\u2019d start leaving the building right away
-    without looking back."
+  storyText: "Right now, its irrelevant. I wondered what she was doing staying underneath
+    the awning. Usually, she\u2019d start leaving the building right away without
+    looking back."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3278,7 +3274,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 823.14844
     y: 176.96608
-    width: 237.82
+    width: 254.86414
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3347,7 +3343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: "My date...Felicity. We\u2019ve been going on a few dates here and there,
+  storyText: "My crush...Felicity. We\u2019ve been going on a few dates here and there,
     but I\u2019m not sure if I\u2019m ready to call her my girlfriend yet. Maybe in
     a few weeks\u2026\r"
   description: 
@@ -3378,13 +3374,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 569.5551
     y: 183.54935
-    width: 177.3356
+    width: 190.9349
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 13
-  blockName: 100 My date, Felicity...
-  description: "LUCAS: My date...Felicity. We\u2019ve been going on a few dates here
+  blockName: 100 My crush, Felicity...
+  description: "LUCAS: My crush...Felicity. We\u2019ve been going on a few dates here
     and there, but I\u2019m not sure if I\u2019m ready to call her my girlfriend yet.
     Maybe in a few weeks\u2026\r"
   eventHandler: {fileID: 0}
@@ -3434,7 +3430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: '"....It''s very mesmerizing."'
+  storyText: '"....It''s bad, but also very mesmerizing."'
   description: 
   character: {fileID: 1604673567}
   portrait: {fileID: 0}
@@ -3463,7 +3459,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 206.4826
     y: 227.15474
-    width: 269.6539
+    width: 282.46994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3540,7 +3536,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -167.01227
     y: 87.44694
-    width: 191.66084
+    width: 204.01134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -3668,11 +3664,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 421.57837, y: -104.05726}
+  scrollPos: {x: -350.87735, y: -670.611}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 435
-  zoom: 0.6282611
+  blockViewHeight: 200
+  zoom: 0.68826103
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3680,8 +3676,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 688068041}
-  selectedCommands: []
+  - {fileID: 688068092}
+  selectedCommands:
+  - {fileID: 688068097}
   variables: []
   description: 'Story Text '
   stepPause: 0
@@ -3773,7 +3770,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -189.64374
     y: 369.8045
-    width: 317.40475
+    width: 344.94623
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -3834,7 +3831,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -151.2996
     y: 238.15698
-    width: 220.31136
+    width: 234.52301
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -3936,7 +3933,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 402.11374
     y: 519.6055
-    width: 237.82
+    width: 259.22296
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4066,7 +4063,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 54.34471
     y: 588.1518
-    width: 204.39441
+    width: 222.89952
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4123,7 +4120,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 754.0108
     y: 513.83093
-    width: 205.9861
+    width: 219.99364
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4200,7 +4197,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 167.6205
     y: 753.3634
-    width: 155.05186
+    width: 167.6879
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4304,7 +4301,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -21.980164
     y: 756.11395
-    width: 156.64355
+    width: 164.78204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4389,7 +4386,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 717.75665
     y: 680.53143
-    width: 274.429
+    width: 292.6405
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4423,9 +4420,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: "At this point, I knew what I should do. No...I had to do this. I have
-    to protect her from the rain! Sharing an umbrella with her...thats a confirmation
-    of love. I\u2019ll be stating my intentions...on making her my girlfriend!\r\n"
+  storyText: "At this point, I know what I have to do. I have to protect her from
+    the rain! Sharing an umbrella with her...thats a confirmation of love. I\u2019ll
+    be stating my intentions on making her my girlfriend!\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4452,7 +4449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: Felicity looked up at me in surprise.
+  storyText: Felicity looks up at me in surprise.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4619,7 +4616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  storyText: Felicity smiled at me as I held the umbrella out.
+  storyText: Felicity smiles at me as I hold the umbrella out.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4646,7 +4643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: '"now then....'
+  storyText: '"now...."'
   description: LUCAS
   character: {fileID: 1219950889}
   portrait: {fileID: 0}
@@ -4655,34 +4652,6 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 0
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &688068086
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688068022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 74
-  indentLevel: 0
-  storyText: "To some people, it might sound kind of patronizing to hear this, but
-    for me, I knew she was just happy to be close to me.\r\n"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -4703,7 +4672,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 765.4414
     y: 771.31354
-    width: 161.41864
+    width: 174.95259
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4712,18 +4681,12 @@ MonoBehaviour:
   description: Let's share an umbrella then.
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 688068119}
-  - {fileID: 688068086}
   - {fileID: 688068127}
   - {fileID: 688068094}
   - {fileID: 688068129}
   - {fileID: 688068084}
   - {fileID: 688068126}
   - {fileID: 688068088}
-  - {fileID: 688068120}
-  - {fileID: 688068090}
-  - {fileID: 688068125}
-  - {fileID: 688068089}
   - {fileID: 688068128}
   - {fileID: 688068095}
   - {fileID: 688068121}
@@ -4758,61 +4721,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &688068089
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688068022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 79
-  indentLevel: 0
-  storyText: "\"I\u2019ll just text Dessy and let her know whats happening...and that
-    she can just meet me at home.\"\r\n"
-  description: Felicity
-  character: {fileID: 1604673567}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &688068090
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688068022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 78
-  indentLevel: 0
-  storyText: "She took her cell phone out and started typing something down.\r\n"
-  description: Felicity
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &688068091
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4827,8 +4735,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: Without missing a beat, Felicity moved closer to me. We both smiled at
-    each other, and began to walk towards the school gate.
+  storyText: Without missing a beat, Felicity moves closer to me. We both smile at
+    each other, and begin to walk towards the school gate.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4857,7 +4765,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 765.62494
     y: 882.7865
-    width: 202.80272
+    width: 215.63483
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4936,8 +4844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 0
-  storyText: "I pushed firmly on the button on the base, letting it blossom and show
-    its true form.\r\n"
+  storyText: "I open the umbrella and let it cover the both of us.\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4983,8 +4890,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 85
   indentLevel: 0
-  storyText: "I was happy to protect someone I love...beyond that, I was happy to
-    expose my feelings to her. On that day...Love bloomed.\r\n"
+  storyText: 'I was happy to protect someone I love. Beyond that, I was happy to expose
+    my feelings to her. I couldn''t imagine doing this any other way.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5301,7 +5210,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: CHAPTER 1
+    stringVal: CHAPTER 1.1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &688068110
@@ -5439,36 +5348,6 @@ MonoBehaviour:
   itemId: 106
   indentLevel: 0
   sayDialog: {fileID: 2023652750}
---- !u!114 &688068119
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688068022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 116
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &688068120
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688068022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 115
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
 --- !u!114 &688068121
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5529,21 +5408,6 @@ MonoBehaviour:
   itemId: 111
   indentLevel: 0
   sayDialog: {fileID: 2023652750}
---- !u!114 &688068125
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688068022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 121
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
 --- !u!114 &688068126
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5619,6 +5483,75 @@ MonoBehaviour:
   itemId: 122
   indentLevel: 0
   menuDialog: {fileID: 298227022}
+--- !u!114 &688068131
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688068022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  indentLevel: 0
+  sayDialog: {fileID: 2023652750}
+--- !u!114 &688068132
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688068022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 124
+  indentLevel: 0
+  storyText: 'I have to make a choice on what to say to her. '
+  description: 
+  character: {fileID: 1219950889}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &688068133
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688068022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  storyText: '"Hmm?"'
+  description: 
+  character: {fileID: 1604673567}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &706056647
 GameObject:
   m_ObjectHideFlags: 0
@@ -7343,7 +7276,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: -68.3, y: 12.6}
+  m_AnchoredPosition: {x: -58, y: 12.6}
   m_SizeDelta: {x: -223.5, y: -60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1817332957
@@ -7543,7 +7476,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &2023652746
 AudioSource:
   m_ObjectHideFlags: 0

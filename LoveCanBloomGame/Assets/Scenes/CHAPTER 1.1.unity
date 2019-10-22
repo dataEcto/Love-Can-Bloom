@@ -407,12 +407,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87442375}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.23, y: 0.08, z: 0}
   m_LocalScale: {x: 23.137, y: 17.212, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 484775676}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &89262644
 GameObject:
@@ -493,7 +493,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1295322523}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -587,7 +588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &227173536
 RectTransform:
   m_ObjectHideFlags: 0
@@ -604,7 +605,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1060, y: -38.369995}
+  m_AnchoredPosition: {x: 644, y: -43}
   m_SizeDelta: {x: 1106, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &227173537
@@ -632,7 +633,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 50
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
@@ -872,7 +873,7 @@ GameObject:
   - component: {fileID: 242067721}
   - component: {fileID: 242067720}
   m_Layer: 0
-  m_Name: dave_s room
+  m_Name: Dells Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -934,12 +935,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 242067719}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.16, y: 0.05, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 484775676}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &269509979
 GameObject:
@@ -977,7 +978,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: -68.3, y: 68}
+  m_AnchoredPosition: {x: -68.3, y: 20}
   m_SizeDelta: {x: -223.5, y: -60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &269509981
@@ -1160,13 +1161,48 @@ RectTransform:
   - {fileID: 1700623325}
   - {fileID: 591736458}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &307919134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 307919135}
+  m_Layer: 0
+  m_Name: Characters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &307919135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307919134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1523619325455919006}
+  - {fileID: 1219950890}
+  - {fileID: 1604673568}
+  - {fileID: 1706870670}
+  - {fileID: 394037644}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &314560393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,13 +1484,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394037642}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 898207921}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 307919135}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &436806424
 GameObject:
@@ -1483,8 +1519,6 @@ GameObject:
   - component: {fileID: 436806442}
   - component: {fileID: 436806452}
   - component: {fileID: 436806451}
-  - component: {fileID: 436806450}
-  - component: {fileID: 436806449}
   - component: {fileID: 436806448}
   - component: {fileID: 436806447}
   - component: {fileID: 436806456}
@@ -1496,18 +1530,12 @@ GameObject:
   - component: {fileID: 436806444}
   - component: {fileID: 436806443}
   - component: {fileID: 436806438}
-  - component: {fileID: 436806459}
   - component: {fileID: 436806458}
   - component: {fileID: 436806457}
   - component: {fileID: 436806460}
-  - component: {fileID: 436806462}
-  - component: {fileID: 436806461}
   - component: {fileID: 436806463}
-  - component: {fileID: 436806465}
-  - component: {fileID: 436806464}
   - component: {fileID: 436806467}
   - component: {fileID: 436806466}
-  - component: {fileID: 436806472}
   - component: {fileID: 436806471}
   - component: {fileID: 436806470}
   - component: {fileID: 436806469}
@@ -1516,130 +1544,10 @@ GameObject:
   - component: {fileID: 436806474}
   - component: {fileID: 436806490}
   - component: {fileID: 436806489}
-  - component: {fileID: 436806488}
   - component: {fileID: 436806487}
   - component: {fileID: 436806486}
   - component: {fileID: 436806485}
-  - component: {fileID: 436806484}
-  - component: {fileID: 436806483}
-  - component: {fileID: 436806482}
-  - component: {fileID: 436806481}
-  - component: {fileID: 436806480}
-  - component: {fileID: 436806479}
-  - component: {fileID: 436806478}
-  - component: {fileID: 436806477}
-  - component: {fileID: 436806476}
-  - component: {fileID: 436806473}
-  - component: {fileID: 436806507}
-  - component: {fileID: 436806506}
-  - component: {fileID: 436806505}
-  - component: {fileID: 436806504}
-  - component: {fileID: 436806503}
-  - component: {fileID: 436806502}
-  - component: {fileID: 436806501}
-  - component: {fileID: 436806500}
-  - component: {fileID: 436806499}
-  - component: {fileID: 436806498}
-  - component: {fileID: 436806497}
-  - component: {fileID: 436806496}
-  - component: {fileID: 436806495}
-  - component: {fileID: 436806494}
-  - component: {fileID: 436806493}
-  - component: {fileID: 436806492}
-  - component: {fileID: 436806491}
-  - component: {fileID: 436806509}
-  - component: {fileID: 436806508}
-  - component: {fileID: 436806510}
-  - component: {fileID: 436806529}
-  - component: {fileID: 436806528}
-  - component: {fileID: 436806527}
-  - component: {fileID: 436806526}
-  - component: {fileID: 436806525}
-  - component: {fileID: 436806524}
-  - component: {fileID: 436806523}
-  - component: {fileID: 436806522}
-  - component: {fileID: 436806521}
-  - component: {fileID: 436806520}
-  - component: {fileID: 436806519}
-  - component: {fileID: 436806518}
-  - component: {fileID: 436806517}
-  - component: {fileID: 436806516}
-  - component: {fileID: 436806515}
-  - component: {fileID: 436806514}
-  - component: {fileID: 436806513}
-  - component: {fileID: 436806512}
-  - component: {fileID: 436806511}
-  - component: {fileID: 436806552}
-  - component: {fileID: 436806551}
-  - component: {fileID: 436806550}
-  - component: {fileID: 436806549}
-  - component: {fileID: 436806548}
-  - component: {fileID: 436806547}
-  - component: {fileID: 436806546}
-  - component: {fileID: 436806545}
-  - component: {fileID: 436806544}
-  - component: {fileID: 436806543}
-  - component: {fileID: 436806542}
-  - component: {fileID: 436806541}
-  - component: {fileID: 436806540}
-  - component: {fileID: 436806539}
-  - component: {fileID: 436806538}
-  - component: {fileID: 436806537}
-  - component: {fileID: 436806536}
-  - component: {fileID: 436806535}
-  - component: {fileID: 436806534}
-  - component: {fileID: 436806533}
-  - component: {fileID: 436806532}
-  - component: {fileID: 436806531}
-  - component: {fileID: 436806564}
-  - component: {fileID: 436806563}
-  - component: {fileID: 436806562}
-  - component: {fileID: 436806561}
-  - component: {fileID: 436806560}
-  - component: {fileID: 436806559}
-  - component: {fileID: 436806557}
-  - component: {fileID: 436806556}
-  - component: {fileID: 436806555}
-  - component: {fileID: 436806554}
-  - component: {fileID: 436806553}
-  - component: {fileID: 436806568}
-  - component: {fileID: 436806567}
-  - component: {fileID: 436806566}
-  - component: {fileID: 436806565}
-  - component: {fileID: 436806558}
   - component: {fileID: 436806530}
-  - component: {fileID: 436806569}
-  - component: {fileID: 436806600}
-  - component: {fileID: 436806599}
-  - component: {fileID: 436806598}
-  - component: {fileID: 436806597}
-  - component: {fileID: 436806596}
-  - component: {fileID: 436806595}
-  - component: {fileID: 436806594}
-  - component: {fileID: 436806593}
-  - component: {fileID: 436806592}
-  - component: {fileID: 436806591}
-  - component: {fileID: 436806590}
-  - component: {fileID: 436806589}
-  - component: {fileID: 436806588}
-  - component: {fileID: 436806587}
-  - component: {fileID: 436806586}
-  - component: {fileID: 436806585}
-  - component: {fileID: 436806584}
-  - component: {fileID: 436806583}
-  - component: {fileID: 436806582}
-  - component: {fileID: 436806581}
-  - component: {fileID: 436806580}
-  - component: {fileID: 436806579}
-  - component: {fileID: 436806578}
-  - component: {fileID: 436806577}
-  - component: {fileID: 436806576}
-  - component: {fileID: 436806575}
-  - component: {fileID: 436806574}
-  - component: {fileID: 436806573}
-  - component: {fileID: 436806572}
-  - component: {fileID: 436806571}
-  - component: {fileID: 436806570}
   - component: {fileID: 436806618}
   - component: {fileID: 436806617}
   - component: {fileID: 436806616}
@@ -1654,48 +1562,56 @@ GameObject:
   - component: {fileID: 436806607}
   - component: {fileID: 436806606}
   - component: {fileID: 436806605}
-  - component: {fileID: 436806604}
-  - component: {fileID: 436806603}
-  - component: {fileID: 436806602}
-  - component: {fileID: 436806601}
-  - component: {fileID: 436806642}
-  - component: {fileID: 436806641}
-  - component: {fileID: 436806640}
-  - component: {fileID: 436806639}
-  - component: {fileID: 436806638}
-  - component: {fileID: 436806637}
-  - component: {fileID: 436806636}
-  - component: {fileID: 436806635}
-  - component: {fileID: 436806634}
-  - component: {fileID: 436806633}
-  - component: {fileID: 436806632}
-  - component: {fileID: 436806631}
-  - component: {fileID: 436806630}
-  - component: {fileID: 436806629}
-  - component: {fileID: 436806628}
-  - component: {fileID: 436806627}
-  - component: {fileID: 436806626}
-  - component: {fileID: 436806625}
-  - component: {fileID: 436806624}
-  - component: {fileID: 436806623}
-  - component: {fileID: 436806622}
-  - component: {fileID: 436806621}
-  - component: {fileID: 436806620}
-  - component: {fileID: 436806619}
   - component: {fileID: 436806646}
-  - component: {fileID: 436806645}
-  - component: {fileID: 436806644}
-  - component: {fileID: 436806643}
   - component: {fileID: 436806647}
-  - component: {fileID: 436806648}
-  - component: {fileID: 436806652}
-  - component: {fileID: 436806651}
   - component: {fileID: 436806649}
-  - component: {fileID: 436806653}
-  - component: {fileID: 436806650}
-  - component: {fileID: 436806656}
-  - component: {fileID: 436806655}
-  - component: {fileID: 436806654}
+  - component: {fileID: 436806481}
+  - component: {fileID: 436806480}
+  - component: {fileID: 436806479}
+  - component: {fileID: 436806478}
+  - component: {fileID: 436806477}
+  - component: {fileID: 436806476}
+  - component: {fileID: 436806473}
+  - component: {fileID: 436806459}
+  - component: {fileID: 436806482}
+  - component: {fileID: 436806491}
+  - component: {fileID: 436806483}
+  - component: {fileID: 436806492}
+  - component: {fileID: 436806484}
+  - component: {fileID: 436806498}
+  - component: {fileID: 436806497}
+  - component: {fileID: 436806496}
+  - component: {fileID: 436806495}
+  - component: {fileID: 436806494}
+  - component: {fileID: 436806493}
+  - component: {fileID: 436806472}
+  - component: {fileID: 436806465}
+  - component: {fileID: 436806464}
+  - component: {fileID: 436806462}
+  - component: {fileID: 436806461}
+  - component: {fileID: 436806450}
+  - component: {fileID: 436806449}
+  - component: {fileID: 436806499}
+  - component: {fileID: 436806500}
+  - component: {fileID: 436806488}
+  - component: {fileID: 436806501}
+  - component: {fileID: 436806504}
+  - component: {fileID: 436806503}
+  - component: {fileID: 436806502}
+  - component: {fileID: 436806506}
+  - component: {fileID: 436806505}
+  - component: {fileID: 436806511}
+  - component: {fileID: 436806510}
+  - component: {fileID: 436806509}
+  - component: {fileID: 436806508}
+  - component: {fileID: 436806507}
+  - component: {fileID: 436806514}
+  - component: {fileID: 436806513}
+  - component: {fileID: 436806512}
+  - component: {fileID: 436806515}
+  - component: {fileID: 436806517}
+  - component: {fileID: 436806516}
+  - component: {fileID: 436806518}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1731,9 +1647,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2.5087147
-    y: 21.418259
-    width: 137.33528
+    x: -339.2481
+    y: 20.980232
+    width: 152.53165
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1743,8 +1659,8 @@ MonoBehaviour:
     will end whenever a choice is called/gets lenghty, very similar to my prototype"
   eventHandler: {fileID: 436806425}
   commandList:
-  - {fileID: 436806441}
   - {fileID: 436806442}
+  - {fileID: 436806441}
   - {fileID: 436806434}
   - {fileID: 436806431}
   - {fileID: 436806437}
@@ -1756,7 +1672,6 @@ MonoBehaviour:
   - {fileID: 436806460}
   - {fileID: 436806458}
   - {fileID: 436806457}
-  - {fileID: 436806459}
   - {fileID: 436806435}
 --- !u!114 &436806427
 MonoBehaviour:
@@ -1771,11 +1686,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 36.58149, y: -46.08248}
+  scrollPos: {x: 268.5434, y: -570.2713}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 287
-  zoom: 0.9732607
+  blockViewHeight: 556
+  zoom: 0.78999996
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1790,7 +1705,7 @@ MonoBehaviour:
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId: 
+  localizationId: CHAPTER 1
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -1807,7 +1722,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &436806429
 MonoBehaviour:
@@ -1840,8 +1755,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: As I finally left the school building after Mock Trial Practice,
-      I watched as my brother walked away with his little girlfriend.\n\nTRAVIS: How
+    stringVal: "TRAVIS: As I finally leave the school building after mock trial practice,
+      I watch as my brother walks away with his little girlfriend.\n\nTRAVIS: How
       cute. \n\nTRAVIS: It\u2019s a well known fact that a couple is official if they\u2019re
       sharing an umbrella. And with the way Felicity is holding on to his arm? I\u2019d
       say that seals the deal."
@@ -1964,7 +1879,7 @@ MonoBehaviour:
   itemId: 11
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806439}
+  targetBlock: {fileID: 436806481}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -2049,9 +1964,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 241
-    y: 60
-    width: 169.18698
+    x: 119.77156
+    y: 100.840515
+    width: 180.37976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2114,7 +2029,7 @@ MonoBehaviour:
   itemId: 14
   indentLevel: 0
   duration: 1
-  fadeOut: 1
+  fadeOut: 0
   targetView: {fileID: 1706870669}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
@@ -2136,7 +2051,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Good thing I brought my umbrella with me.
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 436806615}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -2230,7 +2145,7 @@ MonoBehaviour:
       into space, watching the water drops hit the ground.
 
 
-      TRAVIS: I coughed to get her attention and continued. '
+      TRAVIS: I wonder...what was she thinking about...? '
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2267,28 +2182,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 22
+  itemId: 286
   indentLevel: 0
-  conversationText:
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 436806498}
+  startLabel:
     stringRef: {fileID: 0}
-    stringVal: 'DESSY: "i got bad luck myself, actually. i forgot my umbrella at home."
-
-'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &436806450
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2298,12 +2203,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 21
+  itemId: 285
   indentLevel: 0
-  sayDialog: {fileID: 1298792155}
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 436806467}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &436806451
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2347,9 +2258,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 19.724487
-    y: 197.24596
-    width: 132.1979
+    x: -124.02931
+    y: 253.055
+    width: 143.6709
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2360,19 +2271,13 @@ MonoBehaviour:
   commandList:
   - {fileID: 436806448}
   - {fileID: 436806451}
-  - {fileID: 436806463}
+  - {fileID: 436806491}
   - {fileID: 436806447}
-  - {fileID: 436806450}
-  - {fileID: 436806645}
-  - {fileID: 436806644}
+  - {fileID: 436806492}
+  - {fileID: 436806463}
+  - {fileID: 436806483}
+  - {fileID: 436806484}
   - {fileID: 436806449}
-  - {fileID: 436806462}
-  - {fileID: 436806461}
-  - {fileID: 436806643}
-  - {fileID: 436806464}
-  - {fileID: 436806569}
-  - {fileID: 436806465}
-  - {fileID: 436806472}
 --- !u!114 &436806453
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2432,14 +2337,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 217
-    y: 122
-    width: 224.67056
+    x: 81.67522
+    y: 195.27335
+    width: 289.24054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 1
+  useCustomTint: 0
   itemId: 37
-  blockName: '020 TRAVIS: Time to get her.'
+  blockName: '020 TRAVIS: Time to think this over.'
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2551,26 +2456,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 34
+  itemId: 267
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "--Now change it back.\n\nTRAVIS: I stood underneath the awning and
-      watched it pour. The weather was awful, no doubt.\n\nTRAVIS:And it would be
-      a pain for me to go home and get soaked. The laundry that will follow after...I
-      shudder to think of it.\r\n\nTRAVIS: If I wanted to...I could wait for her to
-      show up. Then, I can gain her sympathy by asking to share her umbrella.\n\nTRAVIS:
-      Knowing her doting family, they must have pestered her into bringing an umbrella
-      this morning.\n\nTRAVIS: And once she opens up her parasol, it\u2019ll be an
-      admittance of love on her part! She\u2019ll confess first, and lose the battle!\n\nTRAVIS:
-      Now to put my plan into motion...I\u2019ll stand out in the rain for a few moments,
-      and get myself drenched. \n\nTRAVIS: Then, as I head back underneath the awning,
-      I\u2019ll place my bag down next to me. \r\n\nTRAVIS: Knowing her, she\u2019ll
-      interpret this scene as me having left school, only to get caught in the rain.
-      I then ran back underneath the awning for protection against the elements. \n\nTRAVIS:
-      Followed up by me putting my bag down, therefore getting \u201CComfortable\u201D
-      underneath the awning and waiting for it to pass.\r\n\n\nTRAVIS: Just you wait,
-      Dessy Labelle...I\u2019ll win.\r\n\n"
+    stringVal: "TRAVIS: Wait, this is a good opportunity to enact my plan.\n\nTRAVIS:
+      I can get her to share her umbrella with me.\n\nTRAVIS: Knowing her doting family,
+      they must have pestered her into bringing an umbrella to school this morning.\n\nTRAVIS:
+      I need her to offer to share an umbrella with me. If she's the first to offer,
+      then it'll be a confession on her part.\n\nTRAVIS: Now to put my plan into motion...I\u2019ll
+      stand out in the rain for a few moments, and get myself drenched. \n\nTRAVIS:
+      Then, as I head back underneath the awning, I\u2019ll place my bag down next
+      to me. \r\n\nTRAVIS: She'lll interpret this scene as me having left school,
+      only to get caught in the rain. \n\nTRAVIS: Just you wait, Dessy. I'm going
+      to win.\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2619,17 +2518,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 40
+  itemId: 284
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: Pardon?\r\n\r\nDESSY: Yep :( I must have forgotten it when
-      i left home this morning. No one warned me about the weather! I guess even my
-      genius lil self can make mistakes sometimes!\n\r\nDESSY: but don\u2019t worry.
-      It won't happen again, Travis. I wouldn\u2019t want to make that kind of fuck
-      up around you.\r\n\r\nTRAVIS: ...H-Ha! That\u2019s good. I would be disappointed
-      if we had to resort to borrowing an umbrella from someone that really needs
-      it.\r\n"
+    stringVal: "TRAVIS: H-how?! She managed to ruin my plan in one fell swoop. Not
+      only  that, but she also mocked her own hubris...I can\u2019t use that as a
+      target now since she would only simply agree with me.\r\n\nI can\u2019t believe
+      this...did she know about my plan beforehand? Or am I becoming too predictable?\n\nStop.
+      This isn\u2019t good. Don\u2019t act too surprised. On the off chance that she
+      doesn\u2019t have an umbrella, I have to simply question her to check if she's
+      lying. \r\n\r\n\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2651,21 +2550,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 39
+  itemId: 283
   indentLevel: 0
-  spriteRenderer: {fileID: 684214985}
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 0.5
-  _targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 0.54509807}
-  waitUntilFinished: 0
-  durationOLD: 0
-  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+  sayDialog: {fileID: 2023652750}
 --- !u!114 &436806463
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2693,7 +2583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 43
+  itemId: 282
   indentLevel: 0
   spriteRenderer: {fileID: 684214985}
   _duration:
@@ -2714,32 +2604,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 42
+  itemId: 281
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: H-how?! She managed to ruin my plan in one fell swoop. Not
-      only  that, but she also mocked her own hubris...I can\u2019t use that as a
-      target now since she would only simply agree with me.\r\n\nI can\u2019t believe
-      this...did she know about my plan beforehand? Or am I becoming too predictable?\n\nStop.
-      This isn\u2019t good. Don\u2019t act too surprised. On the off chance that she
-      doesn\u2019t have an umbrella, I have to simply question her to check if she's
-      lying. \r\n\r\n\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  musicClip: {fileID: 8300000, guid: 753317e5544f451489bfbeb55d657c64, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!114 &436806466
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2784,12 +2657,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 134.2571
-    y: 252.74707
-    width: 287.3465
+    x: 82.26171
+    y: 446.84122
+    width: 310.75952
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 1
+  useCustomTint: 0
   itemId: 44
   blockName: '030 TRAVIS: There has to be something'
   description: 
@@ -2900,41 +2773,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 46
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806467}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806473
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 70
+  itemId: 280
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "DESSY: \u201C.....what is it?! What i just said is good enough proof,
-      no?\u201D\r\n\r\nTRAVIS: \u201CYou\u2019re word isn\u2019t enough to prove that
-      you don\u2019t have an umbrella.\u201D\r\n\r\nTRAVIS: \u201CIn fact, who's to
-      say that Felicity just didn\u2019t have the time to pull out her umbrella before
-      Lucas offered to share his with her?\u201D\r\n\r\nDESSY: \u201Cugh, fine, then
-      let me text her! I\u2019ll just ask if she actually forgot it or not.\u201D\r\n\r\nTRAVIS:
-      \u2026\r\n"
+    stringVal: "TRAVIS: \"Pardon?\r\"\n\r\nDESSY: \"Yep :( I must have forgotten it
+      when i left home this morning. No one warned me about the weather! I guess even
+      my genius lil self can make mistakes sometimes!\"\n\r\nDESSY: \"it's a shame,
+      but hey, what can ya do? guess i got to wait it out or sumthin.\" \n\r\nTRAVIS:
+      \"...H-Ha! That\u2019s good. I would be disappointed if we had to resort to
+      borrowing an umbrella from someone that really needs it.\"\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2947,6 +2798,31 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &436806473
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 266
+  indentLevel: 0
+  text: Construct an elaborate plan.
+  description: 
+  targetBlock: {fileID: 436806477}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &436806474
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2969,15 +2845,7 @@ MonoBehaviour:
       eccentric.\u201D\r\n\r\nTRAVIS: \u201CAnd even if you didn\u2019t watch it,
       I\u2019m quite aware of the fact that your parents can be very...doting.\u201D
       \r\n\r\nTRAVIS: \u201CSo there's a strong possibility that your parents saw
-      the weather report. And, not wanting to get their precious little daughter wet
-      from the elements, they gave you an umbrella to protect yourselves from.\u201D\r\n\r\nDESSY:
-      \u201Cn-nah! That ain\u2019t it, trav! I really did overslept this morning.\u201D\r\n\r\nDESSY:
-      \u201CPluuuus, there's another thing you\u2019re missing.\u201D\r\n\r\nDESSY:
-      \u201CFelicity was sleeping over with me. And she texted me just now that she
-      forgot her umbrella, and she had to share with your brother.\u201D\r\n\r\nDESSY:
-      \u201CIF my family are as doting as you say, they would have reminded HER to
-      have an umbrella as well. But she didn\u2019t have one, because we were BOTH
-      in a rush in the morning!\u201D\r\n\r\nTRAVIS: \u201CGrghghg.\u201D\r\n"
+      the weather report, and gave you an umbrella to use.\"\n\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3004,12 +2872,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 24.096115
-    y: 332.09647
-    width: 250.35742
+    x: -258.80682
+    y: 512.1745
+    width: 265.18988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 52
   blockName: 030a Your family didn't warn you?
   description: 
@@ -3017,23 +2885,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 436806490}
   - {fileID: 436806474}
+  - {fileID: 436806500}
   - {fileID: 436806488}
+  - {fileID: 436806504}
 --- !u!114 &436806476
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 69
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806477
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3045,14 +2900,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 68
+  itemId: 265
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'TRAVIS: No, I can''t just merely trust her word like that.
-
-
-      TRAVIS: I don''t have any evidence, but if I can bluff my way out of this...'
+    stringVal: 'TRAVIS: What should I do then?'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3064,7 +2916,34 @@ MonoBehaviour:
     floatVal: 0
   fadeWhenDone:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
+--- !u!114 &436806477
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -167.64627
+    y: 125.48539
+    width: 189.24051
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 264
+  blockName: 005b No, I got a plan.
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 436806459}
+  - {fileID: 436806482}
 --- !u!114 &436806478
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3079,32 +2958,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 292.88116
-    y: 586.3469
-    width: 174.32434
+    x: -9.1833725
+    y: -24.754278
+    width: 189.24051
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 67
-  blockName: 50a Something is up.
+  useCustomTint: 1
+  itemId: 263
+  blockName: 005a Yeah, Go Home.
   description: 
   eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806507}
-  - {fileID: 436806477}
-  - {fileID: 436806501}
-  - {fileID: 436806473}
-  - {fileID: 436806503}
-  - {fileID: 436806506}
-  - {fileID: 436806476}
-  - {fileID: 436806651}
-  - {fileID: 436806648}
-  - {fileID: 436806504}
-  - {fileID: 436806652}
-  - {fileID: 436806500}
-  - {fileID: 436806505}
-  - {fileID: 436806502}
-  - {fileID: 436806499}
+  commandList: []
 --- !u!114 &436806479
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3117,9 +2981,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 66
+  itemId: 262
   indentLevel: 0
-  text: Something is up.
+  text: Just go home.
   description: 
   targetBlock: {fileID: 436806478}
   hideIfVisited: 0
@@ -3139,82 +3003,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 65
-  indentLevel: 0
-  text: Everything she said sounds fine.
-  description: 
-  targetBlock: {fileID: 436806604}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &436806481
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d88125c88dab4a44851835e94ff4d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 64
+  itemId: 261
   indentLevel: 0
   shuffleMode: 1
---- !u!114 &436806482
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 62
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'TRAVIS: Should I let this line of questioning go?'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806483
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 61
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806484
+--- !u!114 &436806481
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3228,22 +3023,99 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 356.26538
-    y: 493.7005
-    width: 247.275
+    x: -149.78899
+    y: 22.022858
+    width: 146.20255
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 1
-  itemId: 91
-  blockName: '050 TRAVIS: Should I let this go?'
+  useCustomTint: 0
+  itemId: 260
+  blockName: 005 Go Home?
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 436806483}
-  - {fileID: 436806482}
-  - {fileID: 436806481}
+  - {fileID: 436806476}
   - {fileID: 436806480}
   - {fileID: 436806479}
+  - {fileID: 436806473}
+--- !u!114 &436806482
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 268
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 436806439}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &436806483
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 271
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "DESSY: wow. travis looks pretty drenched right now. \n\nDESSY: if
+      i could, i would share my umbrella with him, but...no, no, i can't do that.\n\nDESSY:
+      something about this feels, off. i'm not sure what, but the way hes acting,
+      and the way he looks doesn't seem natural to me. \n\nDESSY: for now, i'll just
+      keep an eye out on what travis is doing."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &436806484
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 273
+  indentLevel: 0
+  spriteRenderer: {fileID: 684214985}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &436806485
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3259,7 +3131,7 @@ MonoBehaviour:
   itemId: 59
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806484}
+  targetBlock: {fileID: 0}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -3319,18 +3191,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 56
+  itemId: 289
   indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806489}
-  startLabel:
+  conversationText:
     stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
+    stringVal: "TRAVIS: That should get her off guard, even if for a little bit.\n\nTRAVIS:
+      I have to be prepared for what she says next...\n\nDESSY: He's pulling the family
+      card on me? I GUESS that logic makes sense. But he doesn't know me well enough
+      to make a big assumption like that. \n\nDESSY: As long as I stay honest and
+      convincing..."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &436806489
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3345,9 +3229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 337.386
-    y: 411.89783
-    width: 281.18164
+    x: 343.44336
+    y: 364.01108
+    width: 306.96204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3383,34 +3267,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 452.8062
-    y: 781.50134
-    width: 131.17044
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 87
-  blockName: 60a backpack
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806509}
-  - {fileID: 436806527}
-  - {fileID: 436806510}
-  - {fileID: 436806529}
-  - {fileID: 436806526}
-  - {fileID: 436806523}
-  - {fileID: 436806522}
-  - {fileID: 436806525}
-  - {fileID: 436806524}
-  - {fileID: 436806508}
-  - {fileID: 436806528}
-  - {fileID: 436806521}
+  itemId: 269
+  indentLevel: 0
+  sayDialog: {fileID: 2023652750}
 --- !u!114 &436806492
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3420,22 +3282,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 86
+  itemId: 272
   indentLevel: 0
-  text: Check inside the school building!
-  description: 
-  targetBlock: {fileID: 436806634}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  spriteRenderer: {fileID: 684214985}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 0}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &436806493
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3445,88 +3306,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 85
+  itemId: 279
   indentLevel: 0
-  text: Allow me to contact your parents!
-  description: 
-  targetBlock: {fileID: 436806638}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  spriteRenderer: {fileID: 684214985}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.5
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 0.54509807}
+  waitUntilFinished: 0
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &436806494
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 84
-  indentLevel: 0
-  text: Show me whats in your backpack!
-  description: 
-  targetBlock: {fileID: 436806491}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &436806495
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 83
-  indentLevel: 0
-  text: Let me text Felicity!
-  description: 
-  targetBlock: {fileID: 436806642}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &436806496
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d88125c88dab4a44851835e94ff4d90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 82
-  indentLevel: 0
-  shuffleMode: 0
---- !u!114 &436806497
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3538,11 +3333,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 81
+  itemId: 278
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CHow about you\u2026.\u201D"
+    stringVal: 'DESSY: "i got bad luck myself, actually. i forgot my umbrella at home."
+
+'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3555,6 +3352,66 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &436806495
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 277
+  indentLevel: 0
+--- !u!114 &436806496
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 276
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "TRAVIS: \u201CI got caught out in the rain just as it started. Oh,
+      it was AWFUL. I can\u2019t get home like this. *Fake Coughing Noises.*\u201D\n\nDESSY:
+      \"awe. poor u.\"\n\n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &436806497
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 275
+  indentLevel: 0
+  sayDialog: {fileID: 1298792155}
 --- !u!114 &436806498
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3569,45 +3426,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 613.0499
-    y: 689.803
-    width: 222.61562
+    x: -331.776
+    y: 350.85568
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 1
-  itemId: 80
-  blockName: '60 TRAVIS: How about you...'
+  useCustomTint: 0
+  itemId: 274
+  blockName: '025 '
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 436806497}
   - {fileID: 436806496}
-  - {fileID: 436806494}
   - {fileID: 436806495}
+  - {fileID: 436806494}
   - {fileID: 436806493}
-  - {fileID: 436806492}
+  - {fileID: 436806472}
+  - {fileID: 436806465}
+  - {fileID: 436806464}
+  - {fileID: 436806462}
+  - {fileID: 436806461}
+  - {fileID: 436806499}
+  - {fileID: 436806450}
 --- !u!114 &436806499
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 79
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806498}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806500
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3619,12 +3461,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 78
+  itemId: 287
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: She has the ball in her court...and she\u2019s going to toss
-      it straight at my face by making me use an umbrella first!\r\n"
+    stringVal: 'DESSY: ...I can''t get a good read of his face, but I can''t imagine
+      anything else putting more pressure on you than that little statement.
+
+
+      DESSY: If I can play on the defensive, then maybe I''ll be able to find out
+      why hes acting this way.'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3637,7 +3483,7 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
---- !u!114 &436806501
+--- !u!114 &436806500
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3649,9 +3495,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 77
+  itemId: 288
   indentLevel: 0
-  sayDialog: {fileID: 1298792155}
+  sayDialog: {fileID: 2023652750}
+--- !u!114 &436806501
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -137.57262
+    y: 650.82635
+    width: 225.94937
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 290
+  blockName: '035 DESSY: I should reply.'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 436806503}
+  - {fileID: 436806502}
+  - {fileID: 436806506}
 --- !u!114 &436806502
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3664,14 +3538,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 76
+  itemId: 293
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CNo. It\u2019s going to be you, Dessy. I can prove you
-      have one.\u201D\r\n\r\nDESSY: \u201C! no way, ur just bluffing. I dont think
-      u can do it.\u201D\r\n\r\nTRAVIS: \u201COh yeah? I THINK I CAN!\u201D\r\n\r\nDESSY:
-      \u201C?!?!?\u201D\r\n"
+    stringVal: 'DESSY: "Welllll, thats true that my parents are very overprotective
+      of me. But theres a simple reason on why I didn''t get warned about the weather."'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3696,9 +3568,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 75
+  itemId: 292
   indentLevel: 0
-  sayDialog: {fileID: 2023652750}
+  sayDialog: {fileID: 1298792155}
 --- !u!114 &436806504
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3708,28 +3580,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 74
+  itemId: 291
   indentLevel: 0
-  conversationText:
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 436806501}
+  startLabel:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CWait. I have an idea that\u2019s quicker.\u201D\r\n\r\nDESSY:
-      \u201CGog, what the-Okay, fine. What is ur better way?\u201D\r\n\r\nDESSY: \u201Cdo
-      u wanna share ur umbrella with me? That sounds like a fun thing to do.\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &436806505
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3739,12 +3601,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 73
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
+  nodeRect:
+    serializedVersion: 2
+    x: 133.75682
+    y: 720.87616
+    width: 222.1519
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 295
+  blockName: '040 DESSY: Missed Alarm'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 436806511}
+  - {fileID: 436806507}
+  - {fileID: 436806510}
+  - {fileID: 436806509}
+  - {fileID: 436806508}
 --- !u!114 &436806506
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3754,31 +3631,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 72
+  itemId: 294
   indentLevel: 0
-  conversationText:
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 436806505}
+  startLabel:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: If she does that, there are some possible outcomes. \r\n\r\nTRAVIS:
-      1) Felicity tells the truth and says they both didn\u2019t have umbrellas. \r\n\r\nTRAVIS:
-      2) Felicity lies, and twists the truth in favor of Dessy. \r\n\r\nTRAVIS: 3)
-      No matter what happens, Dessy may use this time for her to text back to check
-      my bag\u2026\r\n\r\nTRAVIS: I need to put use of these scenarios to my advantage.
-      Or maybe perhaps...twist them around.\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &436806507
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3788,12 +3652,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d88125c88dab4a44851835e94ff4d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 71
+  itemId: 300
   indentLevel: 0
-  sayDialog: {fileID: 2023652750}
+  shuffleMode: 0
 --- !u!114 &436806508
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3803,12 +3667,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 89
+  itemId: 299
   indentLevel: 0
-  sayDialog: {fileID: 2023652750}
+  text: I just...forgot about it!
+  description: 
+  targetBlock: {fileID: 436806512}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &436806509
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3818,43 +3692,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 88
+  itemId: 298
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CDessy! Let\u2019s look inside your bookbag!\u201D\r\n\r\nDESSY:
-      \u201CHuh\u2026?\u201D\r\n\r\nTRAVIS: \u201CA man shouldn\u2019t be allowed
-      to look into a woman\u2019s bag without permission...that\u2019s one of my rules.\u201D\r\n\r\nDESSY:
-      \u201CI literally have never heard u say that before.\u201D\r\n\r\nTRAVIS: \u201CT-the
-      point is, the most likely place for you to place your umbrella is your bag,
-      right?\u201D\r\n\r\nTRAVIS: \u201CSo, how about you open it up and let me see
-      that you actually don\u2019t have it.\u201D\r\n\r\nDESSY: \u201CHrngh\u2026!\u201D\r\n\r\n\r\nTRAVIS:
-      \u201CYou don\u2019t even have to show me every pocket. I get the feeling you
-      wouldn\u2019t put an umbrella in the main pocket, the one that most likely has
-      your books and laptop. \n\nTRAVIS: \"Nor would you put it in the second pocket,
-      which has the most of your electronic stuff. \u201C\r\n\r\nTRAVIS: \u201CBut
-      the third pocket...that\u2019s the resources pocket. That is where you hold
-      all of your things not related to school, but life convenience items...such
-      as an UMBRELLA!\u201D\r\n\r\nDESSY: \u201Cdamn it, Travis! You showed me that
-      3 pocket method! Now ur using it against me! J-jerk!\u201D\r\n\r\nTRAVIS: \u201CCome
-      on, then! The burden of proof lies on YOU! Proof to me that you don\u2019t have
-      an umbrella!\u201D\r\n\r\nDESSY: \u201CUGH. Fine! I\u2019ll open it up for you.
-      Don\u2019t get so dramatic.\u201D\r\n"
-  clearPrevious:
+  text: I didn't ask for an umbrella!
+  description: 
+  targetBlock: {fileID: 436806513}
+  hideIfVisited: 0
+  interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  waitForInput:
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
     booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
 --- !u!114 &436806510
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3864,30 +3717,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 90
+  itemId: 297
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Travis: I watched as she slowly began to open the 3rd pocket of her
-      bag. This was it! Once she opens up her bag...I\u2019ll win!\r\n\r\nTRAVIS:
-      All according to plan.\r\n\r\nTRAVIS: I peeked into Dessy\u2019s bag, ready
-      to feel the warmth of her shoulder next to mine as we walked down the streets..\r\n\r\nTRAVIS:
-      But suddenly, as I looked inside, chills ran up my spine.\r\n"
-  clearPrevious:
+  text: I overslept and was in a rush!
+  description: 
+  targetBlock: {fileID: 436806514}
+  hideIfVisited: 0
+  interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  waitForInput:
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
     booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
 --- !u!114 &436806511
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3897,12 +3742,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 111
+  itemId: 296
   indentLevel: 0
-  sayDialog: {fileID: 1298792155}
+  storyText: '"This is why I didn''t hear about the weather!"'
+  description: 
+  character: {fileID: 1604673567}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &436806512
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3912,29 +3769,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 110
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201C...Dessy. If you\u2019re so adamant on me sharing an
-      umbrella\u2026\u201D\r\n\r\nDESSY: \u201CI-I didn\u2019t say that!\u201D\r\n\r\nTRAVIS:
-      \u201C...Then you\u2019re out of luck. Because I don\u2019t have one.\u201D\r\n\r\nDESSY:
-      \u201C...Nah, you\u2019re bluffing, son, i know it!\u201D\r\n\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  nodeRect:
+    serializedVersion: 2
+    x: 395.23456
+    y: 836.0571
+    width: 170.25317
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 303
+  blockName: 070 I just...Forgot.
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
 --- !u!114 &436806513
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3944,13 +3794,52 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 109
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
+  nodeRect:
+    serializedVersion: 2
+    x: 148.16066
+    y: 851.33594
+    width: 152.53165
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 302
+  blockName: 060 I didn't ask
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
 --- !u!114 &436806514
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -38.79924
+    y: 842.6358
+    width: 143.6709
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 301
+  blockName: 050 Overslept
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 436806515}
+  - {fileID: 436806517}
+  - {fileID: 436806516}
+  - {fileID: 436806518}
+--- !u!114 &436806515
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3962,15 +3851,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 108
+  itemId: 304
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: Objectively speaking, theres going to be no winner of this
-      battle if I don\u2019t have my umbrella.\r\n\r\nTRAVIS: Both of us will end
-      up having to go home, soaked in the rain\u2026\r\n\nTRAVIS: But I rather have
-      that then lose my pride\u2026! In fact, my pride will be my greatest weapon
-      here.\r\n"
+    stringVal: 'DESSY: "i overslept this morning. by the time i woke up, i had to
+      quickly get ready and run off to school!"
+
+
+      DESSY: "i didn''t even get a chance to eat breakfeast, either."
+
+
+      TRAVIS: "..."
+
+
+      DESSY: "..."'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3983,21 +3878,6 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
---- !u!114 &436806515
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 107
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
 --- !u!114 &436806516
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4010,14 +3890,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 106
+  itemId: 306
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: If I say yes, then I\u2019d end up having to share it! I\u2019ll
-      only look like an asshole if I don\u2019t!\r\n\r\nTRAVIS: No...No, I\u2019m
-      overthinking this. I just have to prove I DON\u2019T have an umbrella. There\u2019s
-      gotta be something on me I can use to do that\u2026\r\n"
+    stringVal: 'DESSY: We''re at a standstill right now...
+
+
+      TRAVIS: One of us will have to make a move first, and pput our argument on top...'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -4042,7 +3922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 105
+  itemId: 305
   indentLevel: 0
   sayDialog: {fileID: 2023652750}
 --- !u!114 &436806518
@@ -4054,284 +3934,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 104
+  itemId: 307
   indentLevel: 0
-  conversationText:
+  _sceneName:
     stringRef: {fileID: 0}
-    stringVal: "DESSY: \u201Cokay, I know you\u2019re probably like, internally monologuing
-      rn, but lets just cut this short okay?\u201D\r\n\r\nDESSY: \u201Cdo u got your
-      umbrella?\u201D\r\n\r\nTRAVIS: \u201CHrhgnh.\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806519
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 103
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806520
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 662.6821
-    y: 847.10864
-    width: 328.44543
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 102
-  blockName: '70 DESSY: I know ur internally monologuing rn'
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806519}
-  - {fileID: 436806518}
-  - {fileID: 436806517}
-  - {fileID: 436806516}
-  - {fileID: 436806515}
-  - {fileID: 436806512}
-  - {fileID: 436806513}
-  - {fileID: 436806514}
-  - {fileID: 436806511}
-  - {fileID: 436806552}
-  - {fileID: 436806551}
---- !u!114 &436806521
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 101
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806520}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806522
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 100
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'TRAVIS: Dessy gave me a mischievous smile.'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806523
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 99
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806524
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 98
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "DESSY: \u201CI told you, Travis. I didn\u2019t bring my umbrella with
-      me.\u201D\r\n\r\nDESSY: \u201CPretty nice deductive reasoning tho. I guess that
-      must be why you\u2019re so great.\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806525
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 97
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806526
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 96
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CWhere\u2026Where is your umbrella\u2026?\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806527
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 95
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806528
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 94
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: DAMN IT! She\u2019s just toying with me now. But...did she
-      really not bring her umbrella? I still can\u2019t be sure if she planned this
-      ahead of time\u2026\r\n\r\nTRAVIS: No...It doesn\u2019t matter if I prove that!
-      In fact, if I try to prove that she planned this whole thing, then it\u2019ll
-      make me look suspicious for asking! She\u2019ll get me flustered and weak\u2026\r\n\r\nTRAVIS:
-      And that might get me to confess to her! I can\u2019t allow that! I won\u2019t
-      allow that!!\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806529
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 93
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
+    stringVal: GENRIC - Mash Game
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &436806530
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4356,1804 +3968,6 @@ MonoBehaviour:
   waitUntilFinished: 1
   durationOLD: 0
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &436806531
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 133
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CFuck.\u201D\r\n\r\nDESSY: \u201CDon\u2019t pretend u
-      dont have it :/ cmon.\u201D\r\n\r\nTRAVIS: \u201CNo...I\u2026.\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806532
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 132
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806533
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 131
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: I got caught.I\u2019m finished. Once she looks over at my
-      bag\u2026\r\n\r\nTRAVIS: \u2026 But...to be honest...I think I should chill
-      out from here on out. She genuinely wants to share an umbrella with me. \r\n\r\nTRAVIS:
-      All I\u2019m doing now is ruining my chances of hanging out with her. Is that
-      what I really want? \r\n\r\nTRAVIS: I think I already know the answer to that
-      question.\r\n\r\nTRAVIS: I reached into my bag to pull out my orange umbrella-\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806534
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 130
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806535
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 129
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "DESSY: \u201Cso with that fact in mind, its very, very likely, that
-      you DO have your umbrella.\u201D\r\n\r\nDESSY: \u201Cas for why u didnt pull
-      it out now...well, if you were to open ur bag up in the rain, it would have
-      ruin your stuff inside. So you ran back to stay dry. Thats when i ran into you.\u201D\r\n\r\nDESSY:
-      \u201Cunless...you actually drenched urself on purpose to get my sympathy, hmm?\u201D\r\n\r\nTRAVIS:
-      \u201C...\u201D\r\n\r\nDESSY: \u201Cso now, it all leads to this\u2026\u201D\r\n\r\nDESSY:
-      \u201Cmay i check your bag?\u201D\r\n\r\nTRAVIS: \u2026\r\n\r\nTRAVIS: A\u2026...Ah\u2026\u2026\r\n\r\nTRAVIS:
-      GAAAAAAAAAAAaaaaaAAAAAARGGGHH!\r\n\r\nTRAVIS: \"*huff puff* \"\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806536
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 860.74274
-    y: 1175.1533
-    width: 350.0224
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 128
-  blockName: '90 DESSY: Its likely that you DO have an umbrella'
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806535}
-  - {fileID: 436806534}
-  - {fileID: 436806533}
-  - {fileID: 436806532}
-  - {fileID: 436806531}
-  - {fileID: 436806563}
-  - {fileID: 436806562}
-  - {fileID: 436806561}
-  - {fileID: 436806560}
---- !u!114 &436806537
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 127
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806536}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806538
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 126
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CNow, back to what I was saying...I got caught in the
-      rain. Now, you would think I would have taken out my umbrella and gone home
-      at this point, cursing the weather in the meantime.\r\n\r\nTRAVIS: \u201C...Yet,
-      my mere appearance in front of you states otherwise. That's because I failed
-      to \nsee the weather report this morning!\"\n\nDESSY: \"The report this...morning?\"\n\r\nTRAVIS:
-      \u201CNow, since I have proven that I have no knowledge about this morning's
-      weather report, it unfortunately looks like we both have to go home without
-      an umbrella.\u201D\r\n\r\nTRAVIS: \u201CAfter all, why in the world would I
-      not bring an umbrella if I had heard about the news this morning?\u201D\r\n\r\nDESSY:
-      \u201C...Snrk.\u201D\r\n \r\nTRAVIS: \u201C! What...What is it now?\u201D\r\n\r\nDESSY:
-      \u201Ci gotcha where i want you, travis dell! You fucked up.\u201D\r\n\r\nTRAVIS:
-      \u201CWhat do you-\u201D\r\n\r\nDESSY: \u201Cyou mentioned earlier that the
-      reporter this morning was very eccentric and adamant in letting us know it was
-      gonna rain.\u201D\r\n\r\nDESSY: \u201Chow do u know that?\u201D\r\n\r\nTRAVIS:
-      \u201C! I-I just assumed! It\u2019s usually Charles Stiles who hosts the weather
-      stuff, r-right?\u201D\r\n\r\nDESSY: \u201CHahahaha. It\u2019s so **Cute** when
-      you struggle like that. They hired a new guy lately. Ralph Sepe. Ring a bell?\r\n\r\nTRAVIS:
-      \u201CThe curly black haired guy, right?\u201D\r\n\r\nDESSY: \u201C...\u201D\r\n\r\nTRAVIS:
-      \u201CFUCK.\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806539
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 125
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806540
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 124
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: She must have realized. If she says she knows about my plan,
-      it\u2019ll make her look suspicious for focusing on me!\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806541
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 123
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806542
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 122
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CBecause I\u2019m drenched from the rain, as you can
-      plainly see\u2026\u201D\r\n\r\nTRAVIS: \u201CIt means I have no umbrella.\u201D\r\n\r\nDESSY:
-      \u201CBut..You could have\u2026you could have just gotten yourself wet on purpose!\u201D\r\n\r\nTRAVIS:
-      She\u2019s not wrong. But I can\u2019t allow her to think that way!\r\n\r\nTRAVIS:
-      \u201CDessy, that\u2019s just silly. You\u2019re making it seem like I had a
-      plan or something. Why would I drench myself in water?\u201D\r\n\r\nDESSY: \u201CYou
-      drenched yourself so that you and I can-....Ack!\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806543
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 416.05765
-    y: 1043.729
-    width: 225.69804
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 121
-  blockName: 80a I got drenched in the rain
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806653}
-  - {fileID: 436806650}
-  - {fileID: 436806542}
-  - {fileID: 436806541}
-  - {fileID: 436806540}
-  - {fileID: 436806539}
-  - {fileID: 436806538}
-  - {fileID: 436806537}
---- !u!114 &436806544
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 120
-  indentLevel: 0
-  text: My bag is empty!
-  description: 
-  targetBlock: {fileID: 436806626}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &436806545
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 119
-  indentLevel: 0
-  text: It doesn't exist!
-  description: 
-  targetBlock: {fileID: 436806622}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &436806546
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 118
-  indentLevel: 0
-  text: My brother knows I don't have my umbrella!
-  description: 
-  targetBlock: {fileID: 436806630}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &436806547
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 117
-  indentLevel: 0
-  text: "I got drenched in the rain already!\r\n"
-  description: 
-  targetBlock: {fileID: 436806543}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &436806548
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d88125c88dab4a44851835e94ff4d90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 116
-  indentLevel: 0
-  shuffleMode: 0
---- !u!114 &436806549
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 115
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CThis is the one thing that will prove I have no umbrella!\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806550
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 707.6821
-    y: 943.5306
-    width: 222.61562
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 1
-  itemId: 114
-  blockName: 80 Prove I have no umbrella!
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806549}
-  - {fileID: 436806548}
-  - {fileID: 436806547}
-  - {fileID: 436806546}
-  - {fileID: 436806544}
-  - {fileID: 436806545}
---- !u!114 &436806551
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 113
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806550}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806552
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 112
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CThere's one thing on me that can prove I don\u2019t
-      have an umbrella.\u201D\r\n\r\nDESSY: \u201CAnd what will that be? You got nothin,
-      Travis!\u201D\r\n\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806553
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 145
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: Why is a food critic hosting the weather report this morning\u2026?\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806554
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 144
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806555
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 143
-  indentLevel: 0
-  storyText: "\u201CThat\u2019s all for today's weather. Keep our noggin safe out
-    there, less you want to catch the cold and all those nasty acid chemicals. This
-    is Ralph sepe, world renowned food critic, signing off.\u201D"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &436806556
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 142
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806557
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 141
-  indentLevel: 0
-  storyText: 'EARLIER ON THAT DAY...
-
-    AT TRAVIS AND LUCAS'' HOUSE...'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &436806558
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 150
-  indentLevel: 0
-  spriteRenderer: {fileID: 242067720}
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  _targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  waitUntilFinished: 1
-  durationOLD: 0
-  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &436806559
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 139
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
---- !u!114 &436806560
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 138
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806564}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806561
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 137
-  indentLevel: 0
-  spriteRenderer: {fileID: 87442376}
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  _targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 0}
-  waitUntilFinished: 1
-  durationOLD: 0
-  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &436806562
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 136
-  indentLevel: 0
-  spriteRenderer: {fileID: 684214985}
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  _targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 0}
-  waitUntilFinished: 1
-  durationOLD: 0
-  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &436806563
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 135
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
---- !u!114 &436806564
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 1058.8523
-    y: 1252.0033
-    width: 187.6815
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 134
-  blockName: 100 Earlier at the Dell's
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806656}
-  - {fileID: 436806559}
-  - {fileID: 436806558}
-  - {fileID: 436806565}
-  - {fileID: 436806567}
-  - {fileID: 436806557}
-  - {fileID: 436806566}
-  - {fileID: 436806555}
-  - {fileID: 436806600}
-  - {fileID: 436806553}
-  - {fileID: 436806556}
-  - {fileID: 436806568}
-  - {fileID: 436806554}
-  - {fileID: 436806655}
-  - {fileID: 436806654}
-  - {fileID: 436806599}
-  - {fileID: 436806598}
-  - {fileID: 436806597}
---- !u!114 &436806565
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 149
-  indentLevel: 0
-  duration: 1
-  fadeOut: 1
-  targetView: {fileID: 1706870669}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
---- !u!114 &436806566
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 148
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806567
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 147
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806568
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 146
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "LUCAS: \u201Chey.\u201D\r\n\r\nTRAVIS: \u201CSup.\u201D\r\n\r\nLUCAS:
-      \u201CI just missed the news. Is it going to rain today?\u201D\r\n\r\nTRAVIS:
-      \u201CYep. Pretty hard, too.\u201D\r\n\r\nLUCAS: \u201Cdamn. I guess I got to
-      ask dad to pick me up later. I have an umbrella, but it isn\u2019t w-\u201D\r\n\r\nTRAVIS:
-      \u201CActually. That reminds me of something. How about you youse that dinky
-      red umbrella of yours to take Felicity home after school?\u201D\r\n\r\nLUCAS:
-      \u201Cbut it isn\u2019t wor-wait. Why did you suggest that? What do you gain
-      from this.\u201D\r\n\r\nTRAVIS: \u201CFirst off, sharing an umbrella with someone
-      you like is a sign that you\u2019re a couple.\u201D \r\n\r\nTRAVIS: \u201CPlus,
-      I just like helping my little brother sometimes.\u201D\r\n\r\nLUCAS: \u201Cyeah,
-      sometimes.\u201D\r\n\r\nLUCAS: \u201D... Well, I guess it wouldn\u2019t hurt
-      to try.\u201D\r\n\r\nLUCAS: \u201CShit. I got to go like, right now. I was supposed
-      to meet up with Felicity and take her to school.\u201D\r\n\r\nTRAVIS: \u201CDon\u2019t
-      keep her waiting-Hmm?\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806569
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 152
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806570
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 183
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: I was too tired to even protest.\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806571
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 182
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806572
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 181
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "DESSY: \u201Cfor stressing me out, u owe me lunch.\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806573
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 180
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806574
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 179
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: We looked at each other in shock, wondering what act of God
-      had caused this event to occur. It was almost like a sick joke. \r\n\r\nTRAVIS:
-      For a while, none of us moved...until\u2026\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806575
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 178
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806576
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 177
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "\r\nTRAVIS: \u201CIt. stopped raining.\u201D\r\n\r\nDESSY: \u201C.........\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806577
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 176
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806578
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 175
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: I turned around and came face to face with the worst possible
-      scenario.\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806579
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 174
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806580
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 173
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CIt\u2019s broken.\u201D\r\n\r\nDESSY: \u201C...WHHHHHHHHHHHHHHHAAAAAAAAAAT!?!?\u201D\r\n\r\nTRAVIS:
-      \u201CHa\u2026! That means I win, and you lose-\u201D\r\n\r\nDESSY: \u201CNo-Travis-wait...Look
-      behind you\u2026\u201D\r\n\r\nTRAVIS: \u201C?\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806581
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 172
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806582
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 171
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: I pushed the button on the base firmly, allowing its true
-      form to emerge.\r\n\r\nTRAVIS: It blossomed up to a wonderful canopy...before
-      suddenly, one side began to flop over in a depressing matter.\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806583
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 170
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806584
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 169
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CThis is my brother\u2019s.\u201D\r\n\r\nDESSY: \u201CAha!
-      So you did have an-\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806585
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 168
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806586
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 167
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806587
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 166
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CAlright.\u201D\r\n\r\nTO BE CONTINUED.\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &436806588
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 165
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: I\u2019ve won.\r\n\r\nTRAVIS: Exactly as planned.\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806589
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 164
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806590
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 163
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: I took out a red umbrella from my bag.\r\n\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806591
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 162
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806592
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 161
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u2026\r\n\r\nDESSY: \u201Ctravis? I\u2019m waiting.\u201D\r\n\r\nTRAVIS:
-      \u2026.\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806593
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 160
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806594
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 159
-  indentLevel: 0
-  spriteRenderer: {fileID: 684214985}
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  _targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  waitUntilFinished: 1
-  durationOLD: 0
-  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &436806595
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 158
-  indentLevel: 0
-  duration: 1
-  fadeOut: 1
-  targetView: {fileID: 1706870669}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
---- !u!114 &436806596
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 1243.5858
-    y: 1327.993
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 157
-  blockName: 110 FINAL
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806594}
-  - {fileID: 436806595}
-  - {fileID: 436806586}
-  - {fileID: 436806592}
-  - {fileID: 436806581}
-  - {fileID: 436806588}
-  - {fileID: 436806585}
-  - {fileID: 436806590}
-  - {fileID: 436806583}
-  - {fileID: 436806584}
-  - {fileID: 436806593}
-  - {fileID: 436806582}
-  - {fileID: 436806579}
-  - {fileID: 436806580}
-  - {fileID: 436806577}
-  - {fileID: 436806578}
-  - {fileID: 436806575}
-  - {fileID: 436806576}
-  - {fileID: 436806573}
-  - {fileID: 436806574}
-  - {fileID: 436806571}
-  - {fileID: 436806572}
-  - {fileID: 436806591}
-  - {fileID: 436806570}
-  - {fileID: 436806589}
-  - {fileID: 436806587}
---- !u!114 &436806597
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 156
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806596}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806598
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 155
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
---- !u!114 &436806599
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 154
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: As I watched my brother run out...I saw as he absentmindedly
-      grab an umbrella by the door.\r\n\r\nTRAVIS: An orange umbrella.\r\n\r\nTRAVIS:
-      \u2026\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806600
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 153
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806601
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 211
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: Well, aight. If you say so.\r\nDESSY:....Okay, annnnd?\r\nTRAVIS:...Wait,
-      no!! Something\u2019s off!!\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806602
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 210
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806478}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806603
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 200
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806604
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 589.32654
-    y: 562.7638
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 243
-  blockName: 050b Nah
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806603}
-  - {fileID: 436806601}
-  - {fileID: 436806602}
 --- !u!114 &436806605
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6257,12 +4071,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 503.68848
-    y: 264.13654
-    width: 210.28593
+    x: 466.94867
+    y: 513.06305
+    width: 222.1519
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 242
   blockName: 030c what will you do now?
   description: 
@@ -6330,12 +4144,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 329.08844
-    y: 323.0941
-    width: 258.5772
+    x: 99.83223
+    y: 519.2403
+    width: 277.8481
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 190
   blockName: 030b You didn't check the weather?
   description: 
@@ -6411,14 +4225,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 391.014
-    y: 201.24837
-    width: 200.0112
+    x: 369.70898
+    y: 264.31973
+    width: 299.3671
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 241
-  blockName: 020b Not that bad (Copy)
+  blockName: 020c Good thing I brought my umbrella
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -6491,9 +4305,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 229.5158
-    y: 192.07721
-    width: 154.80234
+    x: 101.44516
+    y: 276.69824
+    width: 166.4557
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -6504,648 +4318,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 436806617}
   - {fileID: 436806616}
---- !u!114 &436806619
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 235
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806550}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806620
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 234
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CI lost my umbrella a few days ago!\u201D\r\n\nTRAVIS:
-      \"And now it's lost forever.\"\n\nTRAVIS: \"If it doesn't exist, then...IT DOESN'T
-      EXIST!\"\n\nDESSY: \u201Cthen why did you not mention it till now\u2026? Would
-      have saved us a lot of time.\u201D\r\n\nDESSY: \u201Cunless you\u2019re lying,
-      hmm?\u201D\r\n\nTRAVIS: \u201CUgh-No, damn. Let me try again.\u201D\r\n\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806621
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 233
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806622
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 1026.7933
-    y: 1034.5154
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 247
-  blockName: 80d lost
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806621}
-  - {fileID: 436806620}
-  - {fileID: 436806619}
---- !u!114 &436806623
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 231
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806550}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806624
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 230
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CMy backpack is quite empty!\u201D\r\nDESSY: \u201CBut...it
-      has sutff in it right now?\u201D\r\nTRAVIS: \u201C...Ha! That\u2019s right.
-      Just getting you warmed up for my real answer.\u201D\r\n possibility. \r\nTRAVIS:
-      Let me..hmm. Try again.\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806625
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 229
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806626
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 905.91034
-    y: 1048.9274
-    width: 137.33528
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 246
-  blockName: 80c empty bag
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806625}
-  - {fileID: 436806624}
-  - {fileID: 436806623}
---- !u!114 &436806627
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 227
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806550}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806628
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 226
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: My brother is my alibi! He knows I don\u2019t have one. \r\nTRAVIS:
-      Go ahead and ask him!\r\nDESSY: okay, that\u2019s an obvious trap.\r\nDESSY:
-      if i text him, he might lie to me to help you out.\r\nDESSY: thats basically
-      the inverse of what i was going to do.\r\nTRAVIS: Oh! Y-yeah, that is certainly
-      a possibility. \r\nTRAVIS: Let me..hmm. Try again.\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806629
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 225
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806630
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 732.62054
-    y: 1050.2378
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 224
-  blockName: 80b Lucas
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806629}
-  - {fileID: 436806628}
-  - {fileID: 436806627}
---- !u!114 &436806631
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 223
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806498}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806632
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 222
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CLet\u2019s look inside and see where you could have
-      left that umbrella!\u201D\r\n\nDESSY: \u201Cdo u really want to do that? I mean,
-      we\u2019re not even allowed back in there right now.\u201D\r\n\nDESSY: \u201Cplus,
-      we had class together all day. If i did have an umbrella, which i don\u2019t,
-      then you would have seen me pull it out during our last class.\u201D\r\n\nTRAVIS:
-      \u201CHmmph\u2026That makes sense\u2026\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806633
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 221
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806634
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 958.66486
-    y: 712.2142
-    width: 154.80234
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 245
-  blockName: 60d Inside School
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806633}
-  - {fileID: 436806632}
-  - {fileID: 436806631}
---- !u!114 &436806635
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 219
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806498}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806636
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 218
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CI\u2019ll just ask your parents if they talked to you
-      about the weather.\u201D\r\n\nDESSY: \u201Ci mean, i guess? But thats the same
-      as either one of us texting Felicity. Plus, they\u2019re at work right now.\u201D\r\n\nTRAVIS:
-      \u201CGrgh. That\u2019s true.\u201D\r\n\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806637
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 217
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806638
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 877.0869
-    y: 775.10236
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 244
-  blockName: 60c Paren
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806637}
-  - {fileID: 436806636}
-  - {fileID: 436806635}
---- !u!114 &436806639
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 215
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806498}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806640
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 214
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CLet me ask Felicity myself! I have her number.\u201D\r\nDESSY:
-      \u201Care you dumb?! Thats just what I was going to do!\u201D\r\nTRAVIS: \u201CAh,
-      Right...Oops. Hmm...\u201D\r\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &436806641
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 213
-  indentLevel: 0
-  sayDialog: {fileID: 1298792155}
---- !u!114 &436806642
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 694.62573
-    y: 779.033
-    width: 145.55508
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 212
-  blockName: 60b Felicity Text
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806641}
-  - {fileID: 436806640}
-  - {fileID: 436806639}
---- !u!114 &436806643
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 240
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 753317e5544f451489bfbeb55d657c64, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
---- !u!114 &436806644
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 239
-  indentLevel: 0
---- !u!114 &436806645
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 238
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CI got caught out in the rain just as it started. Oh,
-      it was AWFUL. I can\u2019t get home like this. *Fake Coughing Noises.*\u201D\n\nDESSY:
-      \"awe. poor u.\"\n\n"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &436806646
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7181,24 +4353,6 @@ MonoBehaviour:
   volume: 0
   fadeDuration: 1
   waitUntilFinished: 0
---- !u!114 &436806648
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 250
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 4ced0c920d074144e8d799976b3dc0cf, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
 --- !u!114 &436806649
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7213,119 +4367,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 254
   indentLevel: 0
---- !u!114 &436806650
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+--- !u!1 &484775675
+GameObject:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 256
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 68d1671ee01838a4686a202700bcca60, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
---- !u!114 &436806651
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 484775676}
+  m_Layer: 0
+  m_Name: Backgrounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &484775676
+Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 253
-  indentLevel: 0
---- !u!114 &436806652
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 252
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
---- !u!114 &436806653
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 255
-  indentLevel: 0
-  volume: 0
-  fadeDuration: 1
-  waitUntilFinished: 0
---- !u!114 &436806654
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 259
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 64ed6455299357a4db54d3acbe0ab7ff, type: 3}
-  atTime: 0
-  loop: 0
-  fadeDuration: 1
---- !u!114 &436806655
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 258
-  indentLevel: 0
-  volume: 1
-  fadeDuration: 4
-  waitUntilFinished: 0
---- !u!114 &436806656
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 257
-  indentLevel: 0
+  m_GameObject: {fileID: 484775675}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 87442377}
+  - {fileID: 684214986}
+  - {fileID: 242067721}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &514256109
 GameObject:
   m_ObjectHideFlags: 0
@@ -7961,7 +5035,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &684045382
 GameObject:
@@ -8051,7 +5125,7 @@ GameObject:
   - component: {fileID: 684214986}
   - component: {fileID: 684214985}
   m_Layer: 0
-  m_Name: Background
+  m_Name: School Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8096,7 +5170,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 158269e232084634a8d266e7fce33d2e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8113,12 +5187,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684214984}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.13, y: -0.05, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 484775676}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &706056647
 GameObject:
@@ -8689,7 +5763,11 @@ MonoBehaviour:
   nameText: TRAVIS
   nameColor: {r: 0.9490196, g: 0.6431373, b: 0, a: 1}
   soundEffect: {fileID: 8300000, guid: 1a1543b7873994f51911c9766dd6d83f, type: 3}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 1844620fa148d4dc89443ca7b33205e1, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 'asshole
@@ -8702,12 +5780,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219950888}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 307919135}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1262986632
 GameObject:
@@ -8859,12 +5937,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295322519}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 89262647}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1298792150
 GameObject:
@@ -9153,13 +6231,25 @@ RectTransform:
   - {fileID: 1209548555}
   - {fileID: 1443491518}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1416097479 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5376978480029351482, guid: 18e692c529756344cab95804ac4e4a71,
+    type: 3}
+  m_PrefabInstance: {fileID: 5376978480325257057}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1443491513
 GameObject:
   m_ObjectHideFlags: 0
@@ -9277,6 +6367,18 @@ RectTransform:
   m_AnchoredPosition: {x: -655, y: 83}
   m_SizeDelta: {x: 1500, y: 335}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1476049071 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5376978479445758852, guid: 18e692c529756344cab95804ac4e4a71,
+    type: 3}
+  m_PrefabInstance: {fileID: 5376978480325257057}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1599911045
 GameObject:
   m_ObjectHideFlags: 0
@@ -9442,12 +6544,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1604673566}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 307919135}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1625968547
 GameObject:
@@ -9699,7 +6801,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -38.900024, y: -34}
+  m_AnchoredPosition: {x: -17, y: 14}
   m_SizeDelta: {x: 77.900024, y: 77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1694739182
@@ -9920,12 +7022,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706870668}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.05, y: 0.18, z: -13.478243}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 307919135}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1817332955
 GameObject:
@@ -10390,7 +7492,7 @@ RectTransform:
   - {fileID: 605991983}
   - {fileID: 1599911050}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10808,10 +7910,139 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523619325455919004}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 307919135}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5376978480325257057
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5376978480271538264, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_Name
+      value: SCORE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376978480271538271, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: travisScoreText
+      value: 
+      objectReference: {fileID: 1416097479}
+    - target: {fileID: 5376978480271538271, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: dessyScoreText
+      value: 
+      objectReference: {fileID: 1476049071}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 18e692c529756344cab95804ac4e4a71, type: 3}
