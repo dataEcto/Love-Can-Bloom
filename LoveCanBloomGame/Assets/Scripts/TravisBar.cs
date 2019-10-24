@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
+using Fungus;
 
 public class TravisBar : MonoBehaviour
 {
@@ -18,8 +19,12 @@ public class TravisBar : MonoBehaviour
 
     public GameObject scoreManager;
     public ScoreManager scoreScript;
-
     public bool shouldSendScore;
+
+    public GameObject timerObject;
+    public CountDownTimer timerScript;
+
+    public Flowchart storyChart;
     
     void Start()
     {
@@ -35,8 +40,12 @@ public class TravisBar : MonoBehaviour
 
         scoreManager = GameObject.Find("SCORE");
         scoreScript = scoreManager.GetComponent<ScoreManager>();
-
         shouldSendScore = false;
+
+        timerObject = GameObject.Find("TIMER");
+        timerScript = timerObject.GetComponent<CountDownTimer>();
+
+       
     }
 
     
@@ -50,9 +59,15 @@ public class TravisBar : MonoBehaviour
             }
             
 
-            if (Input.GetKeyDown(KeyCode.A))
+            if (Input.GetKeyDown(KeyCode.A) && timerScript.countdownOver)
             {
                 addProgress(5);
+
+                if (storyChart.GetBooleanVariable("TravisAdvantage"))
+                {
+                    addProgress(10);
+                    Debug.Log("Travis has the advantage");
+                }
             }
 
             if (CurrentProgress >= 100 && travisWins == false) 
@@ -68,6 +83,7 @@ public class TravisBar : MonoBehaviour
             if (travisWins && shouldSendScore)
             {
                 scoreScript.travisActualScore = scoreScript.travisActualScore + 1;
+                scoreScript.travisWinBranch = true;
                 shouldSendScore = false;
             }
 
@@ -83,7 +99,7 @@ public class TravisBar : MonoBehaviour
         //if the character is out of health, u die!
         if (CurrentProgress <= 0)
         {
-            damageValue = 0;
+            CurrentProgress = 1;
         }
     }
     

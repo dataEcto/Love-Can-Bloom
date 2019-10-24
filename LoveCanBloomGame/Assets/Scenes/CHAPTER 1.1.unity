@@ -261,7 +261,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7548332}
   m_CullTransparentMesh: 0
---- !u!1 &29707872
+--- !u!1 &69693559
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -269,71 +269,114 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 29707873}
-  - component: {fileID: 29707875}
-  - component: {fileID: 29707874}
-  m_Layer: 0
-  m_Name: Left
+  - component: {fileID: 69693560}
+  - component: {fileID: 69693564}
+  - component: {fileID: 69693563}
+  - component: {fileID: 69693562}
+  - component: {fileID: 69693561}
+  m_Layer: 5
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &29707873
+--- !u!224 &69693560
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 29707872}
+  m_GameObject: {fileID: 69693559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 898207921}
-  m_RootOrder: 1
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1831781980}
+  - {fileID: 441798087}
+  - {fileID: 155107373}
+  - {fileID: 905303906}
+  - {fileID: 243484018}
+  m_Father: {fileID: 419322326}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -460.43, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
-  m_Pivot: {x: 0.5, y: 0}
---- !u!114 &29707874
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!225 &69693561
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69693559}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
+--- !u!114 &69693562
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 29707872}
+  m_GameObject: {fileID: 69693559}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &29707875
-CanvasRenderer:
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1600, y: 1200}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 1
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!114 &69693563
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 29707872}
-  m_CullTransparentMesh: 0
+  m_GameObject: {fileID: 69693559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!223 &69693564
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69693559}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 1
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &87442375
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,7 +541,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &139609085
+--- !u!1 &155107372
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -506,42 +549,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 139609086}
-  - component: {fileID: 139609088}
-  - component: {fileID: 139609087}
+  - component: {fileID: 155107373}
+  - component: {fileID: 155107375}
+  - component: {fileID: 155107374}
   m_Layer: 0
-  m_Name: Offscreen Left
+  m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &139609086
+--- !u!224 &155107373
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139609085}
+  m_GameObject: {fileID: 155107372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 898207921}
-  m_RootOrder: 3
+  m_Father: {fileID: 69693560}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1300, y: -1000}
+  m_AnchoredPosition: {x: 460.43, y: -1432}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &139609087
+--- !u!114 &155107374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139609085}
+  m_GameObject: {fileID: 155107372}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -563,13 +606,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &139609088
+--- !u!222 &155107375
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139609085}
+  m_GameObject: {fileID: 155107372}
   m_CullTransparentMesh: 0
 --- !u!1 &227173535
 GameObject:
@@ -942,6 +985,79 @@ Transform:
   m_Father: {fileID: 484775676}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &243484017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 243484018}
+  - component: {fileID: 243484020}
+  - component: {fileID: 243484019}
+  m_Layer: 0
+  m_Name: Offscreen Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &243484018
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243484017}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 69693560}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 1300, y: -1432}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &243484019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243484017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &243484020
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243484017}
+  m_CullTransparentMesh: 0
 --- !u!1 &269509979
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1171,7 @@ GameObject:
   - component: {fileID: 298227024}
   - component: {fileID: 298227023}
   - component: {fileID: 298227022}
+  - component: {fileID: 298227028}
   m_Layer: 5
   m_Name: MenuDialog
   m_TagString: Untagged
@@ -1161,13 +1278,26 @@ RectTransform:
   - {fileID: 1700623325}
   - {fileID: 591736458}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &298227028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298227021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7062e8f652423b24a9b8f2be97856ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyChart: {fileID: 0}
 --- !u!1 &307919134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,6 +1307,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 307919135}
+  - component: {fileID: 307919136}
   m_Layer: 0
   m_Name: Characters
   m_TagString: Untagged
@@ -1195,14 +1326,25 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1523619325455919006}
   - {fileID: 1219950890}
   - {fileID: 1604673568}
-  - {fileID: 1706870670}
-  - {fileID: 394037644}
+  - {fileID: 1523619325455919006}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &307919136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307919134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7062e8f652423b24a9b8f2be97856ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyChart: {fileID: 0}
 --- !u!1 &314560393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,7 +1576,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319580209}
   m_CullTransparentMesh: 0
---- !u!1 &394037642
+--- !u!1 &419322324
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1442,56 +1584,70 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 394037644}
-  - component: {fileID: 394037643}
+  - component: {fileID: 419322326}
+  - component: {fileID: 419322325}
+  - component: {fileID: 419322327}
   m_Layer: 0
   m_Name: Stage
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &394037643
+--- !u!114 &419322325
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394037642}
+  m_GameObject: {fileID: 419322324}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f6478b25a400c642b2dee75f022ab12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portraitCanvas: {fileID: 898207925}
+  portraitCanvas: {fileID: 69693564}
   dimPortraits: 1
   dimColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   fadeDuration: 0.75
   moveDuration: 1
   fadeEaseType: 4
   shiftOffset: {x: 0, y: 0}
-  defaultPosition: {fileID: 890056321}
+  defaultPosition: {fileID: 1831781982}
   positions:
-  - {fileID: 29707873}
-  - {fileID: 890056319}
-  - {fileID: 1690137765}
-  - {fileID: 139609086}
-  - {fileID: 2040448708}
---- !u!4 &394037644
+  - {fileID: 441798087}
+  - {fileID: 1831781980}
+  - {fileID: 155107373}
+  - {fileID: 905303906}
+  - {fileID: 243484018}
+--- !u!4 &419322326
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394037642}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 419322324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 898207921}
-  m_Father: {fileID: 307919135}
-  m_RootOrder: 4
+  - {fileID: 69693560}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &419322327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419322324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7062e8f652423b24a9b8f2be97856ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyChart: {fileID: 0}
 --- !u!1 &436806424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,11 +1685,9 @@ GameObject:
   - component: {fileID: 436806445}
   - component: {fileID: 436806444}
   - component: {fileID: 436806443}
-  - component: {fileID: 436806438}
   - component: {fileID: 436806458}
   - component: {fileID: 436806457}
   - component: {fileID: 436806460}
-  - component: {fileID: 436806463}
   - component: {fileID: 436806467}
   - component: {fileID: 436806466}
   - component: {fileID: 436806471}
@@ -1543,10 +1697,6 @@ GameObject:
   - component: {fileID: 436806475}
   - component: {fileID: 436806474}
   - component: {fileID: 436806490}
-  - component: {fileID: 436806489}
-  - component: {fileID: 436806487}
-  - component: {fileID: 436806486}
-  - component: {fileID: 436806485}
   - component: {fileID: 436806530}
   - component: {fileID: 436806618}
   - component: {fileID: 436806617}
@@ -1560,11 +1710,7 @@ GameObject:
   - component: {fileID: 436806609}
   - component: {fileID: 436806608}
   - component: {fileID: 436806607}
-  - component: {fileID: 436806606}
   - component: {fileID: 436806605}
-  - component: {fileID: 436806646}
-  - component: {fileID: 436806647}
-  - component: {fileID: 436806649}
   - component: {fileID: 436806481}
   - component: {fileID: 436806480}
   - component: {fileID: 436806479}
@@ -1576,16 +1722,12 @@ GameObject:
   - component: {fileID: 436806482}
   - component: {fileID: 436806491}
   - component: {fileID: 436806483}
-  - component: {fileID: 436806492}
-  - component: {fileID: 436806484}
   - component: {fileID: 436806498}
   - component: {fileID: 436806497}
   - component: {fileID: 436806496}
-  - component: {fileID: 436806495}
   - component: {fileID: 436806494}
   - component: {fileID: 436806493}
   - component: {fileID: 436806472}
-  - component: {fileID: 436806465}
   - component: {fileID: 436806464}
   - component: {fileID: 436806462}
   - component: {fileID: 436806461}
@@ -1612,8 +1754,55 @@ GameObject:
   - component: {fileID: 436806517}
   - component: {fileID: 436806516}
   - component: {fileID: 436806518}
+  - component: {fileID: 436806523}
+  - component: {fileID: 436806522}
+  - component: {fileID: 436806521}
+  - component: {fileID: 436806520}
+  - component: {fileID: 436806519}
+  - component: {fileID: 436806438}
+  - component: {fileID: 436806528}
+  - component: {fileID: 436806527}
+  - component: {fileID: 436806526}
+  - component: {fileID: 436806525}
+  - component: {fileID: 436806524}
+  - component: {fileID: 436806529}
+  - component: {fileID: 436806489}
+  - component: {fileID: 436806487}
+  - component: {fileID: 436806486}
+  - component: {fileID: 436806485}
+  - component: {fileID: 436806463}
+  - component: {fileID: 436806484}
+  - component: {fileID: 436806465}
+  - component: {fileID: 436806532}
+  - component: {fileID: 436806531}
+  - component: {fileID: 436806495}
+  - component: {fileID: 436806492}
+  - component: {fileID: 436806535}
+  - component: {fileID: 436806534}
+  - component: {fileID: 436806533}
+  - component: {fileID: 436806541}
+  - component: {fileID: 436806540}
+  - component: {fileID: 436806539}
+  - component: {fileID: 436806538}
+  - component: {fileID: 436806537}
+  - component: {fileID: 436806536}
+  - component: {fileID: 436806542}
+  - component: {fileID: 436806543}
+  - component: {fileID: 436806544}
+  - component: {fileID: 436806545}
+  - component: {fileID: 436806551}
+  - component: {fileID: 436806550}
+  - component: {fileID: 436806549}
+  - component: {fileID: 436806548}
+  - component: {fileID: 436806547}
+  - component: {fileID: 436806546}
+  - component: {fileID: 1710726811712128091}
+  - component: {fileID: 1710726811712128092}
+  - component: {fileID: 1710726811712128093}
+  - component: {fileID: 1710726811712128094}
+  - component: {fileID: 1710726811712128095}
   m_Layer: 0
-  m_Name: Flowchart
+  m_Name: Story Flowchart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1647,9 +1836,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -339.2481
-    y: 20.980232
-    width: 152.53165
+    x: -478.3106
+    y: -8.707262
+    width: 131.24997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1659,9 +1848,11 @@ MonoBehaviour:
     will end whenever a choice is called/gets lenghty, very similar to my prototype"
   eventHandler: {fileID: 436806425}
   commandList:
-  - {fileID: 436806442}
   - {fileID: 436806441}
+  - {fileID: 436806442}
   - {fileID: 436806434}
+  - {fileID: 436806542}
+  - {fileID: 436806543}
   - {fileID: 436806431}
   - {fileID: 436806437}
   - {fileID: 436806430}
@@ -1686,20 +1877,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 268.5434, y: -570.2713}
+  scrollPos: {x: 268.20474, y: -625.71686}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 556
-  zoom: 0.78999996
+  blockViewHeight: 200
+  zoom: 0.6400002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1710726811712128093}
   selectedCommands: []
-  variables: []
+  variables:
+  - {fileID: 436806551}
+  - {fileID: 436806550}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1722,7 +1916,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &436806429
 MonoBehaviour:
@@ -1756,10 +1950,10 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "TRAVIS: As I finally leave the school building after mock trial practice,
-      I watch as my brother walks away with his little girlfriend.\n\nTRAVIS: How
-      cute. \n\nTRAVIS: It\u2019s a well known fact that a couple is official if they\u2019re
-      sharing an umbrella. And with the way Felicity is holding on to his arm? I\u2019d
-      say that seals the deal."
+      I watch as my brother walks away with his little girlfriend.\n\nTRAVIS \"Test
+      Travis Flustered\" left: How cute. \n\nTRAVIS: It\u2019s a well known fact that
+      a couple is official if they\u2019re sharing an umbrella. And with the way Felicity
+      is holding on to his arm? I\u2019d say that seals the deal."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1938,18 +2132,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 33
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806455}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 86.76031
+    y: 44.38823
+    width: 218.74994
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 313
+  blockName: 015 DESSY makes a first choice
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 436806527}
+  - {fileID: 436806528}
+  - {fileID: 436806526}
+  - {fileID: 436806525}
 --- !u!114 &436806439
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1964,9 +2166,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 119.77156
-    y: 100.840515
-    width: 180.37976
+    x: 115.271576
+    y: -35.721962
+    width: 156.24997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1975,12 +2177,14 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 436806647}
-  - {fileID: 436806649}
-  - {fileID: 436806440}
-  - {fileID: 436806646}
+  - {fileID: 436806522}
+  - {fileID: 436806544}
   - {fileID: 436806456}
-  - {fileID: 436806438}
+  - {fileID: 436806484}
+  - {fileID: 436806440}
+  - {fileID: 436806520}
+  - {fileID: 436806521}
+  - {fileID: 436806519}
 --- !u!114 &436806440
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1995,7 +2199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  sayDialog: {fileID: 1298792155}
+  sayDialog: {fileID: 2023652750}
 --- !u!114 &436806441
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2141,8 +2345,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'TRAVIS: I looked over at her once I said that. She was staring off
-      into space, watching the water drops hit the ground.
+    stringVal: 'TRAVIS "Test Travis Thinking": I looked over at her once I said that.
+      She was staring off into space, watching the water drops hit the ground.
 
 
       TRAVIS: I wonder...what was she thinking about...? '
@@ -2231,7 +2435,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS:\u201C *sigh*. Yes. Yes it is.\u201D"
+    stringVal: "TRAVIS \"Test Travis Flustered\":\u201C *sigh*. Yes. Yes it is.\u201D"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2258,9 +2462,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -124.02931
-    y: 253.055
-    width: 143.6709
+    x: -116.52931
+    y: 273.055
+    width: 124.99998
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2273,10 +2477,7 @@ MonoBehaviour:
   - {fileID: 436806451}
   - {fileID: 436806491}
   - {fileID: 436806447}
-  - {fileID: 436806492}
-  - {fileID: 436806463}
   - {fileID: 436806483}
-  - {fileID: 436806484}
   - {fileID: 436806449}
 --- !u!114 &436806453
 MonoBehaviour:
@@ -2337,9 +2538,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 81.67522
-    y: 195.27335
-    width: 289.24054
+    x: 80.35943
+    y: 200.53654
+    width: 246.87492
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2370,8 +2571,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "DESSY: \u201Cwow :0 ... would ya look at that.\"\nDESSY: \"oh, heya
-      there, travis. pretty awful weather we got, huh?\""
+    stringVal: "DESSY: \u201Cwow :0 ... would ya look at that.\"\n\nTRAVIS \"Test
+      Travis Flustered\": \"Ah. Hello.\""
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2427,11 +2628,12 @@ MonoBehaviour:
     stringVal: "-- Comment here. At this point, change the background to like an eerie
       black, plus change that music up.\n\nTRAVIS: As for myself...well, I\u2019d
       just say it\u2019s a lot more complicated than that. There is a girl I like
-      quite a bit. And I\u2019m certain that she likes me as well.  \n\nTRAVIS: But
-      if I were to confess my feelings first, it would make me seem like the weaker
+      quite a bit. \n\nTRAVIS: Her name is Dessy Labelle. We known each other for
+      over 6 months, but none of us had made a move yet.\n\nTRAVIS \"Test Travis Thinking\":
+      If I were to confess my feelings first, it would make me seem like the weaker
       person in the relationship. I can\u2019t allow that to happen.\n\nTRAVIS: She
-      must know that to\u2026For that reason, I will do everything in my power to
-      get her to confess first.\r"
+      must know that too. For that reason, I will do everything in my power to get
+      her to confess first.\r"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2460,16 +2662,15 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: Wait, this is a good opportunity to enact my plan.\n\nTRAVIS:
+    stringVal: "TRAVIS: Wait, this is a good opportunity to enact a plan.\n\nTRAVIS:
       I can get her to share her umbrella with me.\n\nTRAVIS: Knowing her doting family,
       they must have pestered her into bringing an umbrella to school this morning.\n\nTRAVIS:
-      I need her to offer to share an umbrella with me. If she's the first to offer,
-      then it'll be a confession on her part.\n\nTRAVIS: Now to put my plan into motion...I\u2019ll
+      I need her to offer to share an umbrella with me. If she does that, then it'll
+      be a confession on her part.\n\nTRAVIS: Now to put my plan into motion...I\u2019ll
       stand out in the rain for a few moments, and get myself drenched. \n\nTRAVIS:
-      Then, as I head back underneath the awning, I\u2019ll place my bag down next
-      to me. \r\n\nTRAVIS: She'lll interpret this scene as me having left school,
-      only to get caught in the rain. \n\nTRAVIS: Just you wait, Dessy. I'm going
-      to win.\n"
+      Then, as I head back underneath the awning, and wait for her to show up. \n\nTRAVIS
+      \"Test Travis Neutral\": Just you wait, Dessy. I'm going to win.\n\nTRAVIS:
+      As if on queue, Dessy suddenly walked up from behind me.\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2522,13 +2723,13 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: H-how?! She managed to ruin my plan in one fell swoop. Not
-      only  that, but she also mocked her own hubris...I can\u2019t use that as a
-      target now since she would only simply agree with me.\r\n\nI can\u2019t believe
-      this...did she know about my plan beforehand? Or am I becoming too predictable?\n\nStop.
-      This isn\u2019t good. Don\u2019t act too surprised. On the off chance that she
-      doesn\u2019t have an umbrella, I have to simply question her to check if she's
-      lying. \r\n\r\n\n"
+    stringVal: "TRAVIS \"Test Travis Flustered\" left <<<: H-how?! She managed to
+      ruin my plan in one fell swoop. Not only  that, but she also mocked her own
+      hubris...I can\u2019t use that as a target now since she would only simply agree
+      with me.\r\n\nI can\u2019t believe this...did she know about my plan beforehand?
+      Or am I becoming too predictable?\n\nStop. This isn\u2019t good. Don\u2019t
+      act too surprised. On the off chance that she doesn\u2019t have an umbrella,
+      I have to simply question her to check if she's lying. \r\n\r\n\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2565,12 +2766,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 41
+  itemId: 324
   indentLevel: 0
-  sayDialog: {fileID: 2023652750}
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &436806464
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2604,15 +2809,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 281
+  itemId: 326
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 753317e5544f451489bfbeb55d657c64, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
 --- !u!114 &436806466
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2629,8 +2830,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'TRAVIS: There has to be something I can ask her about to make her
-      slip up.'
+    stringVal: 'TRAVIS "Test Travis Neutral": There has to be something I can ask
+      her about to make her slip up.'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2657,9 +2858,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 82.26171
-    y: 446.84122
-    width: 310.75952
+    x: 24.367004
+    y: 415.26224
+    width: 262.49994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2669,6 +2870,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 436806530}
+  - {fileID: 436806545}
   - {fileID: 436806466}
   - {fileID: 436806471}
   - {fileID: 436806470}
@@ -2780,12 +2982,13 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \"Pardon?\r\"\n\r\nDESSY: \"Yep :( I must have forgotten it
-      when i left home this morning. No one warned me about the weather! I guess even
-      my genius lil self can make mistakes sometimes!\"\n\r\nDESSY: \"it's a shame,
-      but hey, what can ya do? guess i got to wait it out or sumthin.\" \n\r\nTRAVIS:
-      \"...H-Ha! That\u2019s good. I would be disappointed if we had to resort to
-      borrowing an umbrella from someone that really needs it.\"\r\n"
+    stringVal: "TRAVIS \"Test Travis Neutral\": \"Pardon?\r\"\n\r\nDESSY dessysheet_@:
+      \"Yep :( I must have forgotten it when i left home this morning. No one warned
+      me about the weather! I guess even my genius lil self can make mistakes sometimes!\"\n\r\nDESSY
+      dessysheet_0: \"it's a shame, but hey, what can ya do? guess i got to wait it
+      out or sumthin.\" \n\r\nTRAVIS \"Test Travis Flustered\": \"...H-Ha! That\u2019s
+      good. I would be disappointed if we had to resort to borrowing an umbrella from
+      someone that really needs it.\"\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2840,10 +3043,10 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "TRAVIS: \u201CSo, no one in your family saw the weather report this
-      morning? The one that said it was going to rain? The news reporter this morning
-      was adamant in letting the general public be aware of that fact. He was very
-      eccentric.\u201D\r\n\r\nTRAVIS: \u201CAnd even if you didn\u2019t watch it,
-      I\u2019m quite aware of the fact that your parents can be very...doting.\u201D
+      morning? The one that said it was going to rain? \n\nTRAVIS: The news reporter
+      this morning was adamant in letting the general public be aware of that fact.
+      He was very eccentric.\u201D\r\n\r\nTRAVIS: \u201CAnd even if you didn\u2019t
+      watch it, I\u2019m quite aware of the fact that your parents can be very...doting.\u201D
       \r\n\r\nTRAVIS: \u201CSo there's a strong possibility that your parents saw
       the weather report, and gave you an umbrella to use.\"\n\r\n"
   clearPrevious:
@@ -2872,9 +3075,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -258.80682
-    y: 512.1745
-    width: 265.18988
+    x: -292.95456
+    y: 521.0097
+    width: 228.12494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2884,6 +3087,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 436806490}
+  - {fileID: 436806549}
   - {fileID: 436806474}
   - {fileID: 436806500}
   - {fileID: 436806488}
@@ -2904,7 +3108,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'TRAVIS: What should I do then?'
+    stringVal: 'TRAVIS: What should I do now?'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2931,9 +3135,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -167.64627
-    y: 125.48539
-    width: 189.24051
+    x: -108.27127
+    y: -1.0771027
+    width: 164.06247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2958,9 +3162,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -9.1833725
-    y: -24.754278
-    width: 189.24051
+    x: -115.37085
+    y: -76.94177
+    width: 164.06247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2968,7 +3172,9 @@ MonoBehaviour:
   blockName: 005a Yeah, Go Home.
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 436806523}
+  - {fileID: 436806532}
 --- !u!114 &436806479
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3023,9 +3229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -149.78899
-    y: 22.022858
-    width: 146.20255
+    x: -311.60147
+    y: -9.35214
+    width: 126.56247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3075,11 +3281,11 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "DESSY: wow. travis looks pretty drenched right now. \n\nDESSY: if
-      i could, i would share my umbrella with him, but...no, no, i can't do that.\n\nDESSY:
-      something about this feels, off. i'm not sure what, but the way hes acting,
-      and the way he looks doesn't seem natural to me. \n\nDESSY: for now, i'll just
-      keep an eye out on what travis is doing."
+    stringVal: "\nDESSY: if i could, i would share my umbrella with him, but...no,
+      no, i can't do that.\n\nDESSY dessysheet_1: something about this feels, off.
+      i'm not sure what, but the way hes acting, and the way he looks doesn't seem
+      natural to me. \n\nDESSY: for now, i'll just keep an eye out on what travis
+      is doing."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3104,7 +3310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 273
+  itemId: 325
   indentLevel: 0
   spriteRenderer: {fileID: 684214985}
   _duration:
@@ -3112,7 +3318,7 @@ MonoBehaviour:
     floatVal: 1
   _targetColor:
     colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
+    colorVal: {r: 1, g: 1, b: 1, a: 0}
   waitUntilFinished: 1
   durationOLD: 0
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
@@ -3128,10 +3334,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 59
+  itemId: 323
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 436806455}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -3149,12 +3355,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 58
+  itemId: 322
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: I guess that makes sense...If they were both in a rush,they
-      might not have been able to grab one for themselves\u2026\r\n"
+    stringVal: 'DESSY: "you look really drenched."
+
+
+      TRAVIS "Test Travis Thinking": "Yes. Yes I am. I can''t believe this."
+
+
+      DESSY dessysheet_0: "Doesn''t take a genius to figure out its got to do with
+      this awful weather, huh?"
+
+
+      TRAVIS "Test Travis Neutral": "..."'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3176,12 +3391,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 57
-  indentLevel: 0
-  sayDialog: {fileID: 2023652750}
+  nodeRect:
+    serializedVersion: 2
+    x: 381.70438
+    y: 108.04616
+    width: 134.37497
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 321
+  blockName: 0105b Drenched
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 436806486}
+  - {fileID: 436806485}
 --- !u!114 &436806488
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3224,25 +3451,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 343.44336
-    y: 364.01108
-    width: 306.96204
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 55
-  blockName: '040 TRAVIS: I guess that makes sense'
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 436806487}
-  - {fileID: 436806486}
-  - {fileID: 436806485}
+  itemId: 320
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 436806455}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &436806490
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3282,21 +3502,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 272
+  itemId: 330
   indentLevel: 0
-  spriteRenderer: {fileID: 684214985}
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  _targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 0}
-  waitUntilFinished: 1
-  durationOLD: 0
-  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 436806505}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &436806493
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3361,11 +3578,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 436806424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 277
+  itemId: 329
   indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'TRAVIS: That may not have been the right thing to say in that situation.
+
+
+      TRAVIS: Not like I can take it back now, though. I''ll just keep pushing through.
+
+
+      DESSY: That was a pretty weak argument on his part. I better prep myself up,
+      though, and put up a strong wall.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &436806496
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3382,9 +3621,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CI got caught out in the rain just as it started. Oh,
-      it was AWFUL. I can\u2019t get home like this. *Fake Coughing Noises.*\u201D\n\nDESSY:
-      \"awe. poor u.\"\n\n"
+    stringVal: "TRAVIS \"Test Travis Flustered\": \u201CI got caught out in the rain
+      just as it started. Oh, it was AWFUL. I can\u2019t get home like this. *Fake
+      Coughing Noises.*\u201D\n\nDESSY: \"awe. poor u.\"\n\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3426,8 +3665,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -331.776
-    y: 350.85568
+    x: -124.50336
+    y: 358.1284
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3439,11 +3678,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 436806497}
   - {fileID: 436806496}
-  - {fileID: 436806495}
   - {fileID: 436806494}
   - {fileID: 436806493}
   - {fileID: 436806472}
-  - {fileID: 436806465}
   - {fileID: 436806464}
   - {fileID: 436806462}
   - {fileID: 436806461}
@@ -3465,8 +3702,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'DESSY: ...I can''t get a good read of his face, but I can''t imagine
-      anything else putting more pressure on you than that little statement.
+    stringVal: 'DESSY dessysheet_1: ...I can''t get a good read of his face, but I
+      can''t imagine anything else putting more pressure on you than that little statement.
 
 
       DESSY: If I can play on the defensive, then maybe I''ll be able to find out
@@ -3512,9 +3749,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -137.57262
-    y: 650.82635
-    width: 225.94937
+    x: -270.40845
+    y: 644.8562
+    width: 192.18745
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3606,9 +3843,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 133.75682
-    y: 720.87616
-    width: 222.1519
+    x: 108.34268
+    y: 631.5281
+    width: 189.06245
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3617,6 +3854,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 436806535}
   - {fileID: 436806511}
   - {fileID: 436806507}
   - {fileID: 436806510}
@@ -3747,7 +3985,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 296
   indentLevel: 0
-  storyText: '"This is why I didn''t hear about the weather!"'
+  storyText: '"The reason why I didn''t get my umbrella is because..."'
   description: 
   character: {fileID: 1604673567}
   portrait: {fileID: 0}
@@ -3774,9 +4012,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 395.23456
-    y: 836.0571
-    width: 170.25317
+    x: 344.5333
+    y: 834.09045
+    width: 153.12497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3799,9 +4037,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 148.16066
-    y: 851.33594
-    width: 152.53165
+    x: 130.52153
+    y: 832.77423
+    width: 131.24997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3809,7 +4047,13 @@ MonoBehaviour:
   blockName: 060 I didn't ask
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 436806541}
+  - {fileID: 436806540}
+  - {fileID: 436806539}
+  - {fileID: 436806538}
+  - {fileID: 436806537}
+  - {fileID: 436806536}
 --- !u!114 &436806514
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3824,9 +4068,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -38.79924
-    y: 842.6358
-    width: 143.6709
+    x: -157.68834
+    y: 818.6544
+    width: 124.99998
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3835,10 +4079,14 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 436806548}
   - {fileID: 436806515}
   - {fileID: 436806517}
   - {fileID: 436806516}
+  - {fileID: 436806465}
+  - {fileID: 436806463}
   - {fileID: 436806518}
+  - {fileID: 436806547}
 --- !u!114 &436806515
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3894,10 +4142,11 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'DESSY: We''re at a standstill right now...
-
-
-      TRAVIS: One of us will have to make a move first, and pput our argument on top...'
+    stringVal: "DESSY: That seemed like the right thing to say. \n\nDESSY: I'll use
+      this argument to give me an advantage.\n\nTRAVIS: Damn. What she says does make
+      sense.\n\nTRAVIS: No, I have to fight back. I'll make sure my argument comes
+      out on top!\n\nDESSY: It doesn't matter what he does. I'll get myself on top
+      in the end! "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3941,9 +4190,320 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: GENRIC - Mash Game
+    stringVal: Mashing
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &436806519
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 312
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 436806438}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &436806520
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 311
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'DESSY dessysheet_1: gosh. its travis. and he''s really drenched.
+
+
+      DESSY: i wonder what happened. guess i should ask him, or just otherwise make
+      small talk with him.
+
+
+      DESSY: funny. i known the guy for a while now and i STILL get a bit nervous
+      around him.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &436806521
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 310
+  indentLevel: 0
+  spriteRenderer: {fileID: 684214985}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &436806522
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 309
+  indentLevel: 0
+  sayDialog: {fileID: 1298792155}
+--- !u!114 &436806523
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 308
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'TRAVIS: I don''t really feel like doing anything right now, so I''ll
+      just head home.
+
+
+      TRAVIS: However, as I walk out of the awning, the rain began to pour down on
+      me. Hard.
+
+
+      TRAVIS: Rather than curse the weather, an idea began to form in mind.
+
+
+      TRAVIS: I can get Dessy to share her umbrella with me.
+
+
+      TRAVIS: Knowing her doting family, they must have pestered her into bringing
+      an umbrella to school this morning.
+
+
+      TRAVIS: I need her to offer to share an umbrella with me. If she does that,
+      then it''ll be a confession on her part.
+
+
+      TRAVIS: Since I''m already drenched in rain, I can make it seem like to her
+      that I don''t have my umbrella.
+
+
+      TRAVIS: I''ll stand behind the awning and wait for her then.
+
+
+      TRAVIS "Test Travis Neutral": Just you wait, Dessy. I''m going to win.
+
+
+      TRAVIS: As if on queue, Dessy suddenly walked up from behind me.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &436806524
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -129.61789
+    y: 110.32907
+    width: 156.24997
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 318
+  blockName: 015a Awful Weather
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 436806529}
+  - {fileID: 436806489}
+--- !u!114 &436806525
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 317
+  indentLevel: 0
+  text: you look pretty drenched
+  description: 
+  targetBlock: {fileID: 436806487}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &436806526
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 316
+  indentLevel: 0
+  text: Awful weather today huh?
+  description: 
+  targetBlock: {fileID: 436806524}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &436806527
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 315
+  indentLevel: 0
+  sayDialog: {fileID: 1298792155}
+--- !u!114 &436806528
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 314
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Dessy: "soooooo...."'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &436806529
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 319
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'DESSY dessysheet_0: some bad weather we got here today, huh?
+
+
+      TRAVIS: ....'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &436806530
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3968,6 +4528,561 @@ MonoBehaviour:
   waitUntilFinished: 1
   durationOLD: 0
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &436806531
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 328
+  indentLevel: 0
+  sayDialog: {fileID: 1298792155}
+--- !u!114 &436806532
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 327
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 436806439}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &436806533
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 333
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'TRAVIS: That may not have been the right thing to say in that situation.
+
+
+      TRAVIS: Not like I can take it back now, though. I''ll just keep pushing through.
+
+
+      DESSY: That was a pretty weak argument on his part. I better prep myself up,
+      though, and put up a strong wall.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &436806534
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 332
+  indentLevel: 0
+  sayDialog: {fileID: 2023652750}
+--- !u!114 &436806535
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 331
+  indentLevel: 0
+  sayDialog: {fileID: 1298792155}
+--- !u!114 &436806536
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 340
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Mashing
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &436806537
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 339
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &436806538
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 338
+  indentLevel: 0
+--- !u!114 &436806539
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 337
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'DESSY: Ugh, that was not the greatest defense ever, but it''ll have
+      to do.
+
+
+      DESSY: We''re at a standstill right now with our argument. I have to bring myself
+      to the top!
+
+
+      TRAVIS: No matter what she says, I will make sure my argument will prevail!
+      I''ll win her heart over and get her to confess!'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &436806540
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 336
+  indentLevel: 0
+  sayDialog: {fileID: 2023652750}
+--- !u!114 &436806541
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 335
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'DESSY: "i just didn''t ask for an umbrella."
+
+      TRAVIS: "Ah, but that doesn''t mean you didn''t hear about the weather."
+
+      DESSY: "huh...er, I guess it doesn''t. I mean, it could also mean I didn''t
+      ask because I didn''t know? ;D ?"
+
+      TRAVIS: "Hmm."'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &436806542
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 341
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1219950889}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 596a08bc3d010904abbefd2d2d3e44de, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 243484018}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &436806543
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 342
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1219950889}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 596a08bc3d010904abbefd2d2d3e44de, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 441798087}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &436806544
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 343
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1604673567}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: -4995017327593340662, guid: a977a1b8cc143544b8e133e96f00dc55,
+    type: 3}
+  offset: 0
+  fromPosition: {fileID: 441798087}
+  toPosition: {fileID: 155107373}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &436806545
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 344
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1604673567}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: -4995017327593340662, guid: a977a1b8cc143544b8e133e96f00dc55,
+    type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &436806546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7062e8f652423b24a9b8f2be97856ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyChart: {fileID: 0}
+--- !u!114 &436806547
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 347
+  indentLevel: 0
+  commenterName: Genric
+  commentText: 'Maybe I can make it load to a blank scene that then loads to a random
+    minigame scene. Spice things up!
+
+'
+--- !u!114 &436806548
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 346
+  indentLevel: 0
+  variable: {fileID: 436806550}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &436806549
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 345
+  indentLevel: 0
+  variable: {fileID: 436806551}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &436806550
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: DessyAdvantage
+  value: 0
+--- !u!114 &436806551
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: TravisAdvantage
+  value: 0
 --- !u!114 &436806605
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3983,28 +5098,7 @@ MonoBehaviour:
   itemId: 197
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806467}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &436806606
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 196
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 436806467}
+  targetBlock: {fileID: 436806505}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -4029,7 +5123,7 @@ MonoBehaviour:
     stringVal: "TRAVIS: \u201CSo what are you going to do?\u201D\r\nDESSY: \u201CI
       dunno. just wait, i guess.\u201D\r\nTRAVIS: \u201CWait for what?\u201D\r\nDESSY:
       \u201Cnow ain't that a weird thing to ask? ill wait for the rain to stop, what
-      else?\u201D\r\nTRAVIS: Hmm.\r\n\n"
+      else?\u201D\r\n\n\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -4071,9 +5165,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 466.94867
-    y: 513.06305
-    width: 222.1519
+    x: 457.8578
+    y: 554.88116
+    width: 195.31245
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4084,6 +5178,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 436806608}
   - {fileID: 436806607}
+  - {fileID: 436806534}
+  - {fileID: 436806533}
   - {fileID: 436806605}
 --- !u!114 &436806610
 MonoBehaviour:
@@ -4099,7 +5195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 192
   indentLevel: 0
-  sayDialog: {fileID: 1298792155}
+  sayDialog: {fileID: 2023652750}
 --- !u!114 &436806611
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4116,8 +5212,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "TRAVIS: \u201CYou didn't check the weather beforehand?\u201D\r\nDESSY:
-      \u201Cnope. I forget sometimes, u know?\u201D\r\nTRAVIS: \u201C...Hmm.\u201D\r\n"
+    stringVal: "TRAVIS: \u201CYou didn't check the weather beforehand?\u201D\r\n\nDESSY:
+      \u201Cnope. I forget sometimes, u know?\u201D\r\n\nTRAVIS: \u201C...Hmm.\u201D\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -4144,9 +5240,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 99.83223
-    y: 519.2403
-    width: 277.8481
+    x: 77.46383
+    y: 523.18756
+    width: 237.49994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4155,9 +5251,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 436806610}
+  - {fileID: 436806531}
   - {fileID: 436806611}
-  - {fileID: 436806606}
+  - {fileID: 436806610}
+  - {fileID: 436806495}
+  - {fileID: 436806492}
 --- !u!114 &436806613
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4225,9 +5323,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 369.70898
-    y: 264.31973
-    width: 299.3671
+    x: 366.58398
+    y: 276.81973
+    width: 256.24994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4305,9 +5403,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 101.44516
-    y: 276.69824
-    width: 166.4557
+    x: 126.955025
+    y: 302.94824
+    width: 143.74997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4318,55 +5416,79 @@ MonoBehaviour:
   commandList:
   - {fileID: 436806617}
   - {fileID: 436806616}
---- !u!114 &436806646
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+--- !u!1 &441798086
+GameObject:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 237
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: cf98bfbb91eff9147a7e521bfd2f465d, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
---- !u!114 &436806647
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 441798087}
+  - component: {fileID: 441798089}
+  - component: {fileID: 441798088}
+  m_Layer: 0
+  m_Name: Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &441798087
+RectTransform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 248
-  indentLevel: 0
-  volume: 0
-  fadeDuration: 1
-  waitUntilFinished: 0
---- !u!114 &436806649
+  m_GameObject: {fileID: 441798086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 69693560}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -460.43, y: -1432}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &441798088
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436806424}
+  m_GameObject: {fileID: 441798086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 254
-  indentLevel: 0
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &441798089
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441798086}
+  m_CullTransparentMesh: 0
 --- !u!1 &484775675
 GameObject:
   m_ObjectHideFlags: 0
@@ -4376,6 +5498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 484775676}
+  - component: {fileID: 484775677}
   m_Layer: 0
   m_Name: Backgrounds
   m_TagString: Untagged
@@ -4398,8 +5521,21 @@ Transform:
   - {fileID: 684214986}
   - {fileID: 242067721}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &484775677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484775675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7062e8f652423b24a9b8f2be97856ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyChart: {fileID: 0}
 --- !u!1 &514256109
 GameObject:
   m_ObjectHideFlags: 0
@@ -4917,7 +6053,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &605991983
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4927,14 +6063,14 @@ RectTransform:
   m_GameObject: {fileID: 605991982}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 0}
+  m_LocalScale: {x: 2, y: 2.6, z: 1}
   m_Children: []
   m_Father: {fileID: 2023652755}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -798, y: 607}
+  m_AnchoredPosition: {x: -1032.9404, y: 632}
   m_SizeDelta: {x: 357, y: 435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &605991984
@@ -5035,7 +6171,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &684045382
 GameObject:
@@ -5371,7 +6507,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844495522}
   m_CullTransparentMesh: 0
---- !u!1 &890056318
+--- !u!1 &905303905
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5379,50 +6515,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 890056319}
-  - component: {fileID: 890056320}
-  - component: {fileID: 890056321}
+  - component: {fileID: 905303906}
+  - component: {fileID: 905303908}
+  - component: {fileID: 905303907}
   m_Layer: 0
-  m_Name: Middle
+  m_Name: Offscreen Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &890056319
+--- !u!224 &905303906
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890056318}
+  m_GameObject: {fileID: 905303905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 898207921}
-  m_RootOrder: 0
+  m_Father: {fileID: 69693560}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1000}
+  m_AnchoredPosition: {x: -1300, y: -1432}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
---- !u!222 &890056320
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890056318}
-  m_CullTransparentMesh: 0
---- !u!114 &890056321
+--- !u!114 &905303907
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890056318}
+  m_GameObject: {fileID: 905303905}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -5444,122 +6572,14 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &898207920
-GameObject:
+--- !u!222 &905303908
+CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 898207921}
-  - component: {fileID: 898207925}
-  - component: {fileID: 898207924}
-  - component: {fileID: 898207923}
-  - component: {fileID: 898207922}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &898207921
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898207920}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 890056319}
-  - {fileID: 29707873}
-  - {fileID: 1690137765}
-  - {fileID: 139609086}
-  - {fileID: 2040448708}
-  m_Father: {fileID: 394037644}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
---- !u!225 &898207922
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898207920}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 0
-  m_IgnoreParentGroups: 0
---- !u!114 &898207923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898207920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1600, y: 1200}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!114 &898207924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898207920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!223 &898207925
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898207920}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 1
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
+  m_GameObject: {fileID: 905303905}
+  m_CullTransparentMesh: 0
 --- !u!1 &1024089409
 GameObject:
   m_ObjectHideFlags: 0
@@ -5637,6 +6657,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024089409}
   m_CullTransparentMesh: 0
+--- !u!1 &1149250567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5376978480271538264, guid: 18e692c529756344cab95804ac4e4a71,
+    type: 3}
+  m_PrefabInstance: {fileID: 5376978480325257057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1149250574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149250567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7062e8f652423b24a9b8f2be97856ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyChart: {fileID: 0}
 --- !u!1 &1209548554
 GameObject:
   m_ObjectHideFlags: 0
@@ -5655,7 +6694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1209548555
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5665,14 +6704,14 @@ RectTransform:
   m_GameObject: {fileID: 1209548554}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 3, y: 3.6, z: 1}
   m_Children: []
   m_Father: {fileID: 1298792160}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1032.9404, y: 632}
+  m_AnchoredPosition: {x: -1032.9404, y: 527}
   m_SizeDelta: {x: 357, y: 435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1209548556
@@ -5764,10 +6803,10 @@ MonoBehaviour:
   nameColor: {r: 0.9490196, g: 0.6431373, b: 0, a: 1}
   soundEffect: {fileID: 8300000, guid: 1a1543b7873994f51911c9766dd6d83f, type: 3}
   portraits:
-  - {fileID: 21300000, guid: 1844620fa148d4dc89443ca7b33205e1, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: c65bf0e8d1e2f0b40b92f6db72386aec, type: 3}
+  - {fileID: 21300000, guid: 596a08bc3d010904abbefd2d2d3e44de, type: 3}
+  - {fileID: 21300000, guid: c928604358dbda34ebf6da265bf6b8c0, type: 3}
+  - {fileID: 21300000, guid: 0b7abc652b60c4f4faa0aded4342294f, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 'asshole
@@ -5785,7 +6824,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 307919135}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1262986632
 GameObject:
@@ -5962,6 +7001,7 @@ GameObject:
   - component: {fileID: 1298792153}
   - component: {fileID: 1298792152}
   - component: {fileID: 1298792151}
+  - component: {fileID: 1298792161}
   m_Layer: 5
   m_Name: Talking Dialogue
   m_TagString: Untagged
@@ -6231,13 +7271,26 @@ RectTransform:
   - {fileID: 1209548555}
   - {fileID: 1443491518}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1298792161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298792150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7062e8f652423b24a9b8f2be97856ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyChart: {fileID: 0}
 --- !u!114 &1416097479 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5376978480029351482, guid: 18e692c529756344cab95804ac4e4a71,
@@ -6530,8 +7583,9 @@ MonoBehaviour:
   nameColor: {r: 1, g: 0.43529412, b: 0.9490196, a: 1}
   soundEffect: {fileID: 8300000, guid: 8e8286c2463884bbaa62cddbee8c7cb3, type: 3}
   portraits:
-  - {fileID: 21300000, guid: e2d75bf743683b04dbe1b6e305e9a5da, type: 3}
-  - {fileID: 21300000, guid: 5a0910ff6b88498468c254b19f30957f, type: 3}
+  - {fileID: -4995017327593340662, guid: a977a1b8cc143544b8e133e96f00dc55, type: 3}
+  - {fileID: -4613513155251790987, guid: a977a1b8cc143544b8e133e96f00dc55, type: 3}
+  - {fileID: 4697346615854429310, guid: a977a1b8cc143544b8e133e96f00dc55, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 'light of my life, the only good oc
@@ -6549,7 +7603,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 307919135}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1625968547
 GameObject:
@@ -6691,79 +7745,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625968547}
-  m_CullTransparentMesh: 0
---- !u!1 &1690137764
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1690137765}
-  - component: {fileID: 1690137767}
-  - component: {fileID: 1690137766}
-  m_Layer: 0
-  m_Name: Right
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1690137765
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690137764}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 898207921}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 460.43, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
-  m_Pivot: {x: 0.5, y: 0}
---- !u!114 &1690137766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690137764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1690137767
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690137764}
   m_CullTransparentMesh: 0
 --- !u!1 &1694739180
 GameObject:
@@ -7026,8 +8007,8 @@ Transform:
   m_LocalPosition: {x: 0.05, y: 0.18, z: -13.478243}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 307919135}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1817332955
 GameObject:
@@ -7128,6 +8109,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817332955}
   m_CullTransparentMesh: 0
+--- !u!1 &1831781979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1831781980}
+  - component: {fileID: 1831781981}
+  - component: {fileID: 1831781982}
+  m_Layer: 0
+  m_Name: Middle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1831781980
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831781979}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 69693560}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -1432}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &1831781981
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831781979}
+  m_CullTransparentMesh: 0
+--- !u!114 &1831781982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831781979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1983369731
 GameObject:
   m_ObjectHideFlags: 0
@@ -7223,6 +8277,7 @@ GameObject:
   - component: {fileID: 2023652748}
   - component: {fileID: 2023652747}
   - component: {fileID: 2023652746}
+  - component: {fileID: 2023652756}
   m_Layer: 5
   m_Name: Thinking Dialogue
   m_TagString: Untagged
@@ -7492,86 +8547,26 @@ RectTransform:
   - {fileID: 605991983}
   - {fileID: 1599911050}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &2040448707
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2040448708}
-  - component: {fileID: 2040448710}
-  - component: {fileID: 2040448709}
-  m_Layer: 0
-  m_Name: Offscreen Right
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2040448708
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040448707}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 898207921}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1300, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
-  m_Pivot: {x: 0.5, y: 0}
---- !u!114 &2040448709
+--- !u!114 &2023652756
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040448707}
+  m_GameObject: {fileID: 2023652745}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 7062e8f652423b24a9b8f2be97856ac6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2040448710
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040448707}
-  m_CullTransparentMesh: 0
+  storyChart: {fileID: 0}
 --- !u!1 &2058237141
 GameObject:
   m_ObjectHideFlags: 0
@@ -7915,8 +8910,146 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 307919135}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1710726811712128091
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 352
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'DESSY: "Gotcha!"
+
+
+      DESSY: "I came out on top. You lost."'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1710726811712128092
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 351
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 1706870669}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 0}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &1710726811712128093
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 19.920132
+    y: 928.46313
+    width: 121.87498
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 348
+  blockName: Dessy Wins 1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1710726811712128092}
+  - {fileID: 1710726811712128091}
+--- !u!114 &1710726811712128094
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 353
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'TRAVIS: "I won!"
+
+
+      TRAVIS: "Exactly as planned."'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1710726811712128095
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 234.34631
+    y: 933.55994
+    width: 121.87498
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 349
+  blockName: Travis Wins 1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1710726811712128094}
 --- !u!1001 &5376978480325257057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7967,7 +9100,7 @@ PrefabInstance:
     - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5376978480271538268, guid: 18e692c529756344cab95804ac4e4a71,
         type: 3}
@@ -8044,5 +9177,10 @@ PrefabInstance:
       propertyPath: dessyScoreText
       value: 
       objectReference: {fileID: 1476049071}
+    - target: {fileID: 5376978480271538271, guid: 18e692c529756344cab95804ac4e4a71,
+        type: 3}
+      propertyPath: storyChart
+      value: 
+      objectReference: {fileID: 436806427}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18e692c529756344cab95804ac4e4a71, type: 3}

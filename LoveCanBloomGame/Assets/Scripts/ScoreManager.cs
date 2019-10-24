@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Fungus;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -10,9 +11,14 @@ public class ScoreManager : MonoBehaviour
 
     public int travisActualScore;
     public int dessyActualScore;
+
+    public bool travisWinBranch;
+    public bool dessyWinBranch;
     
 
     public GameObject SCORE;
+
+    public Flowchart storyChart;
     
     void Start()
     {
@@ -22,9 +28,12 @@ public class ScoreManager : MonoBehaviour
         }
         else
         {
-            DontDestroyOnLoad(this.gameObject);
+            
             return;
         }
+
+        travisWinBranch = false;
+        dessyWinBranch = false;
     }
 
     
@@ -32,5 +41,19 @@ public class ScoreManager : MonoBehaviour
     {
         travisScoreText.text = travisActualScore.ToString();
         dessyScoreText.text = dessyActualScore.ToString();
+
+        if (travisWinBranch)
+        {
+            storyChart.ExecuteBlock("Travis Wins 1");
+            travisWinBranch = false;
+            dessyWinBranch = false;
+        }
+        
+        if (dessyWinBranch)
+        {
+            storyChart.ExecuteBlock("Dessy Wins 1");
+            travisWinBranch = false;
+            dessyWinBranch = false;
+        }
     }
 }

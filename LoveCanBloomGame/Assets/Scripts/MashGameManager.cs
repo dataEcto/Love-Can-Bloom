@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class MashGameManager : MonoBehaviour
 {
-    //Get a public reference to the gameobjects that have the scripts
+    //Get a public reference to the game objects that have the scripts
     public GameObject travis;
     public GameObject dessy;
 
@@ -27,6 +30,7 @@ public class MashGameManager : MonoBehaviour
         {
             dessyBarScript.enabled = false;
             Debug.Log("Disable Dessy Script");
+            //SceneManager.LoadScene("CHAPTER 1.2");
         }
         
         if (dessyBarScript.dessyWins)

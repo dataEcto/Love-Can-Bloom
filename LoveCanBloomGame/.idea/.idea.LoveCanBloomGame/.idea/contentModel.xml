@@ -909,6 +909,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="CountDownTimer.cs" t="Include" />
+          <e p="DDOL.cs" t="Include" />
           <e p="DessyBar.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="MashGameManager.cs" t="Include" />

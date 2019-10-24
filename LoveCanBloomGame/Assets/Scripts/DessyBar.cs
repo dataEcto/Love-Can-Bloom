@@ -16,8 +16,10 @@ public class DessyBar : MonoBehaviour
     
     public GameObject scoreManager;
     public ScoreManager scoreScript;
-
     public bool shouldSendScore;
+    
+    public GameObject timerObject;
+    public CountDownTimer timerScript;
     
     void Start()
     {
@@ -33,8 +35,10 @@ public class DessyBar : MonoBehaviour
         
         scoreManager = GameObject.Find("SCORE");
         scoreScript = scoreManager.GetComponent<ScoreManager>();
-
         shouldSendScore = false;
+        
+        timerObject = GameObject.Find("TIMER");
+        timerScript = timerObject.GetComponent<CountDownTimer>();
     }
 
     
@@ -47,9 +51,9 @@ public class DessyBar : MonoBehaviour
             DealDamage(10);
         }
                     
-        if (Input.GetKeyDown(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.L)  && timerScript.countdownOver)
         {
-            addProgress(5);
+            AddProgress(5);
         }
         
         if (CurrentProgress >= 100 && dessyWins == false) 
@@ -65,6 +69,7 @@ public class DessyBar : MonoBehaviour
         if (dessyWins && shouldSendScore)
         {
             scoreScript.dessyActualScore = scoreScript.dessyActualScore + 1;
+            scoreScript.dessyWinBranch = true;
             shouldSendScore = false;
         }
     }
@@ -77,11 +82,11 @@ public class DessyBar : MonoBehaviour
         //if the character is out of health, u die!
         if (CurrentProgress <= 0)
         {
-            //Die
+            CurrentProgress = 1;
         }
     }
     
-    void addProgress(float progressGained)
+    void AddProgress(float progressGained)
     {
         Debug.Log("Adding: " + progressGained );
       
@@ -91,8 +96,7 @@ public class DessyBar : MonoBehaviour
         //Prevent the player from restoring past full health
         if (CurrentProgress >= MaxProgress)
         {
-            CurrentProgress -= 1;
-            //Debug.Log("Progress is full. Will no longer add more");
+            CurrentProgress -= 1;    
         }
 
     }
