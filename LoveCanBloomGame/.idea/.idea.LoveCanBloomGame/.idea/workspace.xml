@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="89c6edd2-0991-4251-a14d-302b2849d5f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LoveCanBloomGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LoveCanBloomGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FungusExamples/Conversation/CustomSayDialogs.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FungusExamples/Conversation/CustomSayDialogs.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CHAPTER 1 Proto.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CHAPTER 1 Proto.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fungus/Scripts/EventHandlers/ButtonClicked.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fungus/Scripts/EventHandlers/ButtonClicked.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CHAPTER 1.1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CHAPTER 1.1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GENRIC - Mash Game.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GENRIC - Mash Game.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DessyBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DessyBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MashGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MashGameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TravisBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TravisBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,89 +15,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs">
+        <entry file="file://C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+            <state relative-caret-position="960">
+              <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
               <folding>
-                <marker date="1571932344345" expanded="true" signature="6:105" ph="..." />
-                <marker date="1571932344345" expanded="true" signature="148:1208" ph="{...}" />
-                <marker date="1571932344345" expanded="true" signature="462:690" ph="{...}" />
-                <marker date="1571932344345" expanded="true" signature="495:552" ph="{...}" />
-                <marker date="1571932344345" expanded="true" signature="565:618" ph="{...}" />
-                <marker date="1571932344345" expanded="true" signature="714:1206" ph="{...}" />
-                <marker date="1571932344345" expanded="true" signature="870:1017" ph="{...}" />
-                <marker date="1571932344345" expanded="true" signature="1054:1200" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MashGameManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-              <folding>
-                <marker date="1571931537049" expanded="true" signature="6:135" ph="..." />
-                <marker date="1571931537049" expanded="true" signature="182:1066" ph="{...}" />
-                <marker date="1571931537049" expanded="true" signature="475:664" ph="{...}" />
-                <marker date="1571931537049" expanded="true" signature="688:1064" ph="{...}" />
-                <marker date="1571931537049" expanded="true" signature="734:898" ph="{...}" />
-                <marker date="1571931537049" expanded="true" signature="945:1058" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TravisBar.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1373">
-              <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-              <folding>
-                <marker date="1571930319734" expanded="true" signature="6:153" ph="..." />
-                <marker date="1571930319734" expanded="true" signature="193:3343" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="632:1179" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="1203:2339" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="1222:1317" ph="/* There are multiple ways we are going to make the health bar ... */" />
-                <marker date="1571930319734" expanded="true" signature="1345:1405" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="1493:1756" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="1610:1742" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="1821:2049" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="2110:2314" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="2383:2704" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="2645:2698" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="2739:2892" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="2754:2840" ph="/* Accurately calculate health so ... */" />
-                <marker date="1571930319734" expanded="true" signature="2940:3337" ph="{...}" />
-                <marker date="1571930319734" expanded="true" signature="3206:3330" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DessyBar.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
-              <folding>
-                <marker date="1571929520540" expanded="false" signature="6:100" ph="..." />
-                <marker date="1571929520540" expanded="true" signature="139:2895" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="545:1113" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="1137:1963" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="1152:1242" ph="/* There are multiple ways we are going to make the health bar ... */" />
-                <marker date="1571929520540" expanded="true" signature="1266:1314" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="1406:1454" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="1522:1720" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="1776:1957" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="2007:2327" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="2268:2321" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="2375:2705" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="2640:2698" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="2740:2893" ph="{...}" />
-                <marker date="1571929520540" expanded="true" signature="2755:2841" ph="/* Accurately calculate health so ... */" />
+                <marker date="1569459786000" expanded="false" signature="6:130" ph="..." />
+                <marker date="1569459786000" expanded="true" signature="156:6293" ph="{...}" />
+                <marker date="1569459786000" expanded="true" signature="163:255" ph="/// A standard button that sends an event when clicked. ... " />
+                <marker date="1569459786000" expanded="true" signature="370:6291" ph="{...}" />
+                <marker date="1569459786000" expanded="true" signature="408:502" ph="/* Function definition for a button click event. ... */" />
+                <marker date="1569459786000" expanded="true" signature="774:785" ph="{...}" />
+                <marker date="1569459786000" expanded="true" signature="795:1643" ph="/// UnityEvent that is triggered when the button is pressed. ... " />
+                <marker date="1569459786000" expanded="true" signature="1685:1782" ph="{...}" />
+                <marker date="1569459786000" expanded="true" signature="1811:2005" ph="{...}" />
+                <marker date="1569459786000" expanded="true" signature="2015:3661" ph="/// Call all registered IPointerClickHandlers. ... " />
+                <marker date="1569459786000" expanded="true" signature="3733:3870" ph="{...}" />
+                <marker date="1569459786000" expanded="true" signature="3880:5530" ph="/// Call all registered ISubmitHandler. ... " />
+                <marker date="1569459786000" expanded="true" signature="5593:5913" ph="{...}" />
+                <marker date="1569459786000" expanded="true" signature="5638:5720" ph="/* if we get set disabled during the press ... */" />
+                <marker date="1569459786000" expanded="true" signature="5959:6285" ph="{...}" />
+                <marker date="1569459786000" expanded="true" signature="6095:6213" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -116,6 +46,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>DealDamage</find>
+      <find>invoke</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,12 +56,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MashGameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CountDownTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/Components/DialogInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/Editor/FlowchartWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TravisBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DessyBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DDOL.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/EventHandlers/ButtonClicked.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Int Game Dev/mind-cleaning-master/Int Midterm/Assets/Scripts/ProgressBar.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -143,6 +77,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TravisBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MashGameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
+        <option value="C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" />
       </list>
     </option>
   </component>
@@ -206,12 +141,13 @@
       <workItem from="1571506255955" duration="8265000" />
       <workItem from="1571668449269" duration="4190000" />
       <workItem from="1571769778244" duration="6830000" />
-      <workItem from="1571848600346" duration="10906000" />
+      <workItem from="1571848600346" duration="12106000" />
+      <workItem from="1572118063736" duration="1989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30213000" />
+    <option name="totallyTimeSpent" value="33402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -224,7 +160,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -588,30 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DessyBar.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
-          <folding>
-            <marker date="1571929520540" expanded="false" signature="6:100" ph="..." />
-            <marker date="1571929520540" expanded="true" signature="139:2895" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="545:1113" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="1137:1963" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="1152:1242" ph="/* There are multiple ways we are going to make the health bar ... */" />
-            <marker date="1571929520540" expanded="true" signature="1266:1314" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="1406:1454" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="1522:1720" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="1776:1957" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="2007:2327" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="2268:2321" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="2375:2705" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="2640:2698" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="2740:2893" ph="{...}" />
-            <marker date="1571929520540" expanded="true" signature="2755:2841" ph="/* Accurately calculate health so ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DDOL.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -635,6 +546,38 @@
             <marker date="1571925626764" expanded="true" signature="307:386" ph="{...}" />
             <marker date="1571925626764" expanded="true" signature="410:635" ph="{...}" />
             <marker date="1571925626764" expanded="true" signature="546:629" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+          <folding>
+            <marker date="1571932344345" expanded="true" signature="6:105" ph="..." />
+            <marker date="1571932344345" expanded="true" signature="148:1208" ph="{...}" />
+            <marker date="1571932344345" expanded="true" signature="462:690" ph="{...}" />
+            <marker date="1571932344345" expanded="true" signature="495:552" ph="{...}" />
+            <marker date="1571932344345" expanded="true" signature="565:618" ph="{...}" />
+            <marker date="1571932344345" expanded="true" signature="714:1206" ph="{...}" />
+            <marker date="1571932344345" expanded="true" signature="870:1017" ph="{...}" />
+            <marker date="1571932344345" expanded="true" signature="1054:1200" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MashGameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <marker date="1571931537049" expanded="true" signature="6:135" ph="..." />
+            <marker date="1571931537049" expanded="true" signature="182:1066" ph="{...}" />
+            <marker date="1571931537049" expanded="true" signature="475:664" ph="{...}" />
+            <marker date="1571931537049" expanded="true" signature="688:1064" ph="{...}" />
+            <marker date="1571931537049" expanded="true" signature="734:898" ph="{...}" />
+            <marker date="1571931537049" expanded="true" signature="945:1058" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -664,34 +607,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MashGameManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DessyBar.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="460">
+          <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
           <folding>
-            <marker date="1571931537049" expanded="true" signature="6:135" ph="..." />
-            <marker date="1571931537049" expanded="true" signature="182:1066" ph="{...}" />
-            <marker date="1571931537049" expanded="true" signature="475:664" ph="{...}" />
-            <marker date="1571931537049" expanded="true" signature="688:1064" ph="{...}" />
-            <marker date="1571931537049" expanded="true" signature="734:898" ph="{...}" />
-            <marker date="1571931537049" expanded="true" signature="945:1058" ph="{...}" />
+            <marker date="1571929520540" expanded="false" signature="6:100" ph="..." />
+            <marker date="1571929520540" expanded="true" signature="139:2895" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="545:1113" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="1137:1963" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="1152:1242" ph="/* There are multiple ways we are going to make the health bar ... */" />
+            <marker date="1571929520540" expanded="true" signature="1266:1314" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="1406:1454" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="1522:1720" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="1776:1957" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="2007:2327" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="2268:2321" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="2375:2705" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="2640:2698" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="2740:2893" ph="{...}" />
+            <marker date="1571929520540" expanded="true" signature="2755:2841" ph="/* Accurately calculate health so ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/Components/DialogInput.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        <state relative-caret-position="-396">
+          <caret line="61" column="70" lean-forward="true" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
           <folding>
-            <marker date="1571932344345" expanded="true" signature="6:105" ph="..." />
-            <marker date="1571932344345" expanded="true" signature="148:1208" ph="{...}" />
-            <marker date="1571932344345" expanded="true" signature="462:690" ph="{...}" />
-            <marker date="1571932344345" expanded="true" signature="495:552" ph="{...}" />
-            <marker date="1571932344345" expanded="true" signature="565:618" ph="{...}" />
-            <marker date="1571932344345" expanded="true" signature="714:1206" ph="{...}" />
-            <marker date="1571932344345" expanded="true" signature="870:1017" ph="{...}" />
-            <marker date="1571932344345" expanded="true" signature="1054:1200" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="0:242" ph="/* This code is part of the Fungus library (http://fungusgames.com) maintained by Chris Gregan (http://twitter.co ... */" />
+            <marker date="1561502926000" expanded="false" signature="251:295" ph="..." />
+            <marker date="1561502926000" expanded="true" signature="313:6115" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="320:411" ph="/// Supported modes for clicking through a Say Dialog. ... " />
+            <marker date="1561502926000" expanded="true" signature="437:801" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="807:878" ph="/// Input handler for say dialogs. ... " />
+            <marker date="1561502926000" expanded="true" signature="923:6113" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="1739:1837" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="1847:1998" ph="/* There must be an Event System in the scene for Say and Menu input to work. ... */" />
+            <marker date="1561502926000" expanded="true" signature="2048:2552" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="2177:2542" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="2376:2528" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="2605:4874" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="2660:2712" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="2767:2901" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="2954:3242" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="3153:3228" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="3274:3777" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="3439:3514" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="3618:3740" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="3817:3931" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="3966:4389" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="4245:4375" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="4484:4864" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="4659:4807" ph="{...}" />
+            <marker date="1561502926000" expanded="false" signature="4884:6107" ph="Public members" />
+            <marker date="1561502926000" expanded="true" signature="4916:5007" ph="/// Trigger next line input event from script. ... " />
+            <marker date="1561502926000" expanded="true" signature="5053:5111" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="5121:5257" ph="/// Set the dialog clicked flag (usually from an Event Trigger component in the dialog UI). ... " />
+            <marker date="1561502926000" expanded="true" signature="5308:5760" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="5474:5526" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="5680:5750" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="5770:5848" ph="/// Sets the button clicked flag. ... " />
+            <marker date="1561502926000" expanded="true" signature="5899:6087" ph="{...}" />
+            <marker date="1561502926000" expanded="true" signature="6014:6077" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/EventHandlers/ButtonClicked.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <marker date="1572127532454" expanded="true" signature="0:242" ph="/* This code is part of the Fungus library (http://fungusgames.com) maintained by Chris Gregan (http://twitter.co ... */" />
+            <marker date="1572127532454" expanded="false" signature="251:285" ph="..." />
+            <marker date="1572127532454" expanded="true" signature="304:1350" ph="{...}" />
+            <marker date="1572127532454" expanded="true" signature="311:427" ph="/// The block will execute when the user clicks on the target UI button object. ... " />
+            <marker date="1572127532454" expanded="true" signature="432:597" ph="[...]" />
+            <marker date="1572127532454" expanded="true" signature="670:1348" ph="{...}" />
+            <marker date="1572127532454" expanded="false" signature="807:1342" ph="Public members" />
+            <marker date="1572127532454" expanded="true" signature="866:1017" ph="{...}" />
+            <marker date="1572127532454" expanded="true" signature="914:1007" ph="{...}" />
+            <marker date="1572127532454" expanded="true" signature="1073:1121" ph="{...}" />
+            <marker date="1572127532454" expanded="true" signature="1166:1322" ph="{...}" />
+            <marker date="1572127532454" expanded="true" signature="1214:1284" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+          <folding>
+            <marker date="1569459786000" expanded="false" signature="6:130" ph="..." />
+            <marker date="1569459786000" expanded="true" signature="156:6293" ph="{...}" />
+            <marker date="1569459786000" expanded="true" signature="163:255" ph="/// A standard button that sends an event when clicked. ... " />
+            <marker date="1569459786000" expanded="true" signature="370:6291" ph="{...}" />
+            <marker date="1569459786000" expanded="true" signature="408:502" ph="/* Function definition for a button click event. ... */" />
+            <marker date="1569459786000" expanded="true" signature="774:785" ph="{...}" />
+            <marker date="1569459786000" expanded="true" signature="795:1643" ph="/// UnityEvent that is triggered when the button is pressed. ... " />
+            <marker date="1569459786000" expanded="true" signature="1685:1782" ph="{...}" />
+            <marker date="1569459786000" expanded="true" signature="1811:2005" ph="{...}" />
+            <marker date="1569459786000" expanded="true" signature="2015:3661" ph="/// Call all registered IPointerClickHandlers. ... " />
+            <marker date="1569459786000" expanded="true" signature="3733:3870" ph="{...}" />
+            <marker date="1569459786000" expanded="true" signature="3880:5530" ph="/// Call all registered ISubmitHandler. ... " />
+            <marker date="1569459786000" expanded="true" signature="5593:5913" ph="{...}" />
+            <marker date="1569459786000" expanded="true" signature="5638:5720" ph="/* if we get set disabled during the press ... */" />
+            <marker date="1569459786000" expanded="true" signature="5959:6285" ph="{...}" />
+            <marker date="1569459786000" expanded="true" signature="6095:6213" ph="{...}" />
           </folding>
         </state>
       </provider>
