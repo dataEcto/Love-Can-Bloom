@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c6edd2-0991-4251-a14d-302b2849d5f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LoveCanBloomGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LoveCanBloomGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fungus/Scripts/EventHandlers/ButtonClicked.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fungus/Scripts/EventHandlers/ButtonClicked.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CHAPTER 1.1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CHAPTER 1.1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FungusExamples/SaveGame/SaveGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FungusExamples/SaveGame/SaveGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Text Boxes.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Text Boxes.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PROLOGUE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PROLOGUE.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Title Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Title Screen.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,35 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-              <folding>
-                <marker date="1569459786000" expanded="false" signature="6:130" ph="..." />
-                <marker date="1569459786000" expanded="true" signature="156:6293" ph="{...}" />
-                <marker date="1569459786000" expanded="true" signature="163:255" ph="/// A standard button that sends an event when clicked. ... " />
-                <marker date="1569459786000" expanded="true" signature="370:6291" ph="{...}" />
-                <marker date="1569459786000" expanded="true" signature="408:502" ph="/* Function definition for a button click event. ... */" />
-                <marker date="1569459786000" expanded="true" signature="774:785" ph="{...}" />
-                <marker date="1569459786000" expanded="true" signature="795:1643" ph="/// UnityEvent that is triggered when the button is pressed. ... " />
-                <marker date="1569459786000" expanded="true" signature="1685:1782" ph="{...}" />
-                <marker date="1569459786000" expanded="true" signature="1811:2005" ph="{...}" />
-                <marker date="1569459786000" expanded="true" signature="2015:3661" ph="/// Call all registered IPointerClickHandlers. ... " />
-                <marker date="1569459786000" expanded="true" signature="3733:3870" ph="{...}" />
-                <marker date="1569459786000" expanded="true" signature="3880:5530" ph="/// Call all registered ISubmitHandler. ... " />
-                <marker date="1569459786000" expanded="true" signature="5593:5913" ph="{...}" />
-                <marker date="1569459786000" expanded="true" signature="5638:5720" ph="/* if we get set disabled during the press ... */" />
-                <marker date="1569459786000" expanded="true" signature="5959:6285" ph="{...}" />
-                <marker date="1569459786000" expanded="true" signature="6095:6213" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -54,17 +27,18 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MashGameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CountDownTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/Components/DialogInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/EventHandlers/ButtonClicked.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Int Game Dev/mind-cleaning-master/Int Midterm/Assets/Scripts/ProgressBar.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CountDownTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/Editor/FlowchartWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TravisBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DessyBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DDOL.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/EventHandlers/ButtonClicked.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Int Game Dev/mind-cleaning-master/Int Midterm/Assets/Scripts/ProgressBar.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/Components/SaveMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -143,11 +117,12 @@
       <workItem from="1571769778244" duration="6830000" />
       <workItem from="1571848600346" duration="12106000" />
       <workItem from="1572118063736" duration="1989000" />
+      <workItem from="1572376132913" duration="1795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33402000" />
+    <option name="totallyTimeSpent" value="35197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -696,12 +671,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/Components/SaveMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <marker date="1561503107000" expanded="true" signature="0:242" ph="/* This code is part of the Fungus library (http://fungusgames.com) maintained by Chris Gregan (http://twitter.co ... */" />
+            <marker date="1561503107000" expanded="false" signature="274:343" ph="..." />
+            <marker date="1561503107000" expanded="true" signature="361:10587" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="368:480" ph="/// A singleton game object which displays a simple UI for the save system. ... " />
+            <marker date="1561503107000" expanded="true" signature="523:10585" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="2762:3343" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="2861:2950" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="3023:3103" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="3120:3272" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="3383:4103" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="3426:3496" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="3719:3824" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="3875:4093" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="3992:4079" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="4144:5911" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="4390:4550" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="4585:5166" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="4639:4971" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="4678:4858" ph="/* Don't allow saving unless there's at least one save point in the history, ... */" />
+            <marker date="1561503107000" expanded="true" signature="5011:5152" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="5206:5295" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="5333:5454" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="5493:5622" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="5658:5900" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="5785:5886" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="5954:6043" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="6087:6176" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="6275:6512" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="6427:6502" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="6553:6684" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="6605:6674" ph="{...}" />
+            <marker date="1561503107000" expanded="false" signature="6694:10579" ph="Public methods" />
+            <marker date="1561503107000" expanded="true" signature="6726:6841" ph="/// Gets the string key used to store save game data in Player Prefs.  ... " />
+            <marker date="1561503107000" expanded="true" signature="6925:7087" ph="/// Toggles the expanded / collapsed state of the save menu. ... " />
+            <marker date="1561503107000" expanded="true" signature="7132:8209" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="7177:7293" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="7326:7731" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="7563:7627" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="7650:7715" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="7748:8152" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="7984:8048" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="8071:8136" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="8219:8324" ph="/// Handler function called when the Save button is pressed. ... " />
+            <marker date="1561503107000" expanded="true" signature="8359:8602" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="8483:8592" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="8612:8717" ph="/// Handler function called when the Load button is pressed. ... " />
+            <marker date="1561503107000" expanded="true" signature="8752:9006" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="8886:8995" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="9016:9123" ph="/// Handler function called when the Rewind button is pressed. ... " />
+            <marker date="1561503107000" expanded="true" signature="9160:9391" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="9314:9380" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="9401:9514" ph="/// Handler function called when the Fast Forward button is pressed. ... " />
+            <marker date="1561503107000" expanded="true" signature="9556:9798" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="9717:9788" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="9808:9916" ph="/// Handler function called when the Restart button is pressed. ... " />
+            <marker date="1561503107000" expanded="true" signature="9954:10559" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="10092:10204" ph="{...}" />
+            <marker date="1561503107000" expanded="true" signature="10366:10443" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        <state relative-caret-position="866">
+          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
           <folding>
-            <marker date="1569459786000" expanded="false" signature="6:130" ph="..." />
             <marker date="1569459786000" expanded="true" signature="156:6293" ph="{...}" />
             <marker date="1569459786000" expanded="true" signature="163:255" ph="/// A standard button that sends an event when clicked. ... " />
             <marker date="1569459786000" expanded="true" signature="370:6291" ph="{...}" />
