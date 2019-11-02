@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c6edd2-0991-4251-a14d-302b2849d5f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/FungusExamples/SaveGame/SaveGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FungusExamples/SaveGame/SaveGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Text Boxes.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Text Boxes.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PROLOGUE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PROLOGUE.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Title Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Title Screen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fungus/Scripts/Components/DialogInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fungus/Scripts/Components/DialogInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CHAPTER 1.1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CHAPTER 1.1.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +12,74 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/Components/DialogInput.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+              <folding>
+                <marker date="1572641504846" expanded="true" signature="0:242" ph="/* This code is part of the Fungus library (http://fungusgames.com) maintained by Chris Gregan (http://twitter.co ... */" />
+                <marker date="1572641504846" expanded="true" signature="251:295" ph="..." />
+                <marker date="1572641504846" expanded="true" signature="314:6228" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="336:427" ph="/// Supported modes for clicking through a Say Dialog. ... " />
+                <marker date="1572641504846" expanded="true" signature="453:817" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="823:894" ph="/// Input handler for say dialogs. ... " />
+                <marker date="1572641504846" expanded="true" signature="939:6226" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="1789:1887" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="1897:2048" ph="/* There must be an Event System in the scene for Say and Menu input to work. ... */" />
+                <marker date="1572641504846" expanded="true" signature="2098:2602" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="2227:2592" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="2426:2578" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="2655:4938" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="2710:2762" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="2817:2951" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="3004:3292" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="3203:3278" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="3324:3841" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="3503:3578" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="3682:3804" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="3881:3995" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="4030:4453" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="4309:4439" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="4548:4928" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="4723:4871" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="4948:6220" ph="Public members" />
+                <marker date="1572641504846" expanded="true" signature="4980:5071" ph="/// Trigger next line input event from script. ... " />
+                <marker date="1572641504846" expanded="true" signature="5117:5211" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="5221:5357" ph="/// Set the dialog clicked flag (usually from an Event Trigger component in the dialog UI). ... " />
+                <marker date="1572641504846" expanded="true" signature="5408:5860" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="5574:5626" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="5780:5850" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="5870:5948" ph="/// Sets the button clicked flag. ... " />
+                <marker date="1572641504846" expanded="true" signature="5999:6200" ph="{...}" />
+                <marker date="1572641504846" expanded="true" signature="6127:6190" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DDOL.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1571926547039" expanded="true" signature="6:92" ph="..." />
+                <marker date="1571926547039" expanded="true" signature="127:287" ph="{...}" />
+                <marker date="1571926547039" expanded="true" signature="184:240" ph="{...}" />
+                <marker date="1571926547039" expanded="true" signature="264:285" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>DealDamage</find>
       <find>invoke</find>
+      <find>setbutton</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -52,6 +112,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MashGameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
         <option value="C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" />
+        <option value="$PROJECT_DIR$/Assets/Fungus/Scripts/Components/DialogInput.cs" />
       </list>
     </option>
   </component>
@@ -118,11 +179,12 @@
       <workItem from="1571848600346" duration="12106000" />
       <workItem from="1572118063736" duration="1989000" />
       <workItem from="1572376132913" duration="1795000" />
+      <workItem from="1572640740138" duration="3461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35197000" />
+    <option name="totallyTimeSpent" value="38658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -135,6 +197,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -498,19 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DDOL.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <marker date="1571926547039" expanded="true" signature="6:92" ph="..." />
-            <marker date="1571926547039" expanded="true" signature="127:287" ph="{...}" />
-            <marker date="1571926547039" expanded="true" signature="184:240" ph="{...}" />
-            <marker date="1571926547039" expanded="true" signature="264:285" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CountDownTimer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
@@ -602,50 +652,6 @@
             <marker date="1571929520540" expanded="true" signature="2640:2698" ph="{...}" />
             <marker date="1571929520540" expanded="true" signature="2740:2893" ph="{...}" />
             <marker date="1571929520540" expanded="true" signature="2755:2841" ph="/* Accurately calculate health so ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/Components/DialogInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="61" column="70" lean-forward="true" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
-          <folding>
-            <marker date="1561502926000" expanded="true" signature="0:242" ph="/* This code is part of the Fungus library (http://fungusgames.com) maintained by Chris Gregan (http://twitter.co ... */" />
-            <marker date="1561502926000" expanded="false" signature="251:295" ph="..." />
-            <marker date="1561502926000" expanded="true" signature="313:6115" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="320:411" ph="/// Supported modes for clicking through a Say Dialog. ... " />
-            <marker date="1561502926000" expanded="true" signature="437:801" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="807:878" ph="/// Input handler for say dialogs. ... " />
-            <marker date="1561502926000" expanded="true" signature="923:6113" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="1739:1837" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="1847:1998" ph="/* There must be an Event System in the scene for Say and Menu input to work. ... */" />
-            <marker date="1561502926000" expanded="true" signature="2048:2552" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="2177:2542" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="2376:2528" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="2605:4874" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="2660:2712" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="2767:2901" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="2954:3242" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="3153:3228" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="3274:3777" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="3439:3514" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="3618:3740" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="3817:3931" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="3966:4389" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="4245:4375" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="4484:4864" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="4659:4807" ph="{...}" />
-            <marker date="1561502926000" expanded="false" signature="4884:6107" ph="Public members" />
-            <marker date="1561502926000" expanded="true" signature="4916:5007" ph="/// Trigger next line input event from script. ... " />
-            <marker date="1561502926000" expanded="true" signature="5053:5111" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="5121:5257" ph="/// Set the dialog clicked flag (usually from an Event Trigger component in the dialog UI). ... " />
-            <marker date="1561502926000" expanded="true" signature="5308:5760" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="5474:5526" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="5680:5750" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="5770:5848" ph="/// Sets the button clicked flag. ... " />
-            <marker date="1561502926000" expanded="true" signature="5899:6087" ph="{...}" />
-            <marker date="1561502926000" expanded="true" signature="6014:6077" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -758,6 +764,62 @@
             <marker date="1569459786000" expanded="true" signature="5638:5720" ph="/* if we get set disabled during the press ... */" />
             <marker date="1569459786000" expanded="true" signature="5959:6285" ph="{...}" />
             <marker date="1569459786000" expanded="true" signature="6095:6213" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DDOL.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1571926547039" expanded="true" signature="6:92" ph="..." />
+            <marker date="1571926547039" expanded="true" signature="127:287" ph="{...}" />
+            <marker date="1571926547039" expanded="true" signature="184:240" ph="{...}" />
+            <marker date="1571926547039" expanded="true" signature="264:285" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Fungus/Scripts/Components/DialogInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+          <folding>
+            <marker date="1572641504846" expanded="true" signature="0:242" ph="/* This code is part of the Fungus library (http://fungusgames.com) maintained by Chris Gregan (http://twitter.co ... */" />
+            <marker date="1572641504846" expanded="true" signature="251:295" ph="..." />
+            <marker date="1572641504846" expanded="true" signature="314:6228" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="336:427" ph="/// Supported modes for clicking through a Say Dialog. ... " />
+            <marker date="1572641504846" expanded="true" signature="453:817" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="823:894" ph="/// Input handler for say dialogs. ... " />
+            <marker date="1572641504846" expanded="true" signature="939:6226" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="1789:1887" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="1897:2048" ph="/* There must be an Event System in the scene for Say and Menu input to work. ... */" />
+            <marker date="1572641504846" expanded="true" signature="2098:2602" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="2227:2592" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="2426:2578" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="2655:4938" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="2710:2762" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="2817:2951" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="3004:3292" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="3203:3278" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="3324:3841" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="3503:3578" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="3682:3804" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="3881:3995" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="4030:4453" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="4309:4439" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="4548:4928" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="4723:4871" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="4948:6220" ph="Public members" />
+            <marker date="1572641504846" expanded="true" signature="4980:5071" ph="/// Trigger next line input event from script. ... " />
+            <marker date="1572641504846" expanded="true" signature="5117:5211" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="5221:5357" ph="/// Set the dialog clicked flag (usually from an Event Trigger component in the dialog UI). ... " />
+            <marker date="1572641504846" expanded="true" signature="5408:5860" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="5574:5626" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="5780:5850" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="5870:5948" ph="/// Sets the button clicked flag. ... " />
+            <marker date="1572641504846" expanded="true" signature="5999:6200" ph="{...}" />
+            <marker date="1572641504846" expanded="true" signature="6127:6190" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,33 @@
+Key,Description,Standard
+SAY.CHAPTERONE.372.DESSY,,"“wow :0 ... would ya look at that."""
+SAY.CHAPTERONE.379.DESSY,,"(if i could, i would share my umbrella with him, but...no, i can't do that.)"
+SAY.CHAPTERONE.377.TUTORIAL,,Welcome back. I'm here to introduce one of the new elements. Scores!
+MENU.CHAPTERONE.30,,Yes. Yes it is.
+MENU.CHAPTERONE.31,,It’s not that bad.
+MENU.CHAPTERONE.32,,Good thing I brought my umbrella with me.
+MENU.CHAPTERONE.48,,Your family didn't warn you?
+MENU.CHAPTERONE.50,,You didn't check the weather beforehand?
+MENU.CHAPTERONE.49,,So what are you going do?
+SAY.CHAPTERONE.382.DESSY,,(He's pulling the family card on me? I GUESS that logic makes sense. But he doesn't know me well enough to make a big assumption like that.) 
+SAY.CHAPTERONE.383.DESSY,,"(As long as I stay honest and convincing, then I can get by fine.)"
+MENU.CHAPTERONE.262,,Just go home.
+MENU.CHAPTERONE.266,,Construct an elaborate plan.
+SAY.CHAPTERONE.380.DESSY,,"""awe. poor u."" "
+SAY.CHAPTERONE.381.DESSY,,"""yep :( i must have forgotten it when i left home this morning. no one warned me about the weather! i guess even my genius lil self can make mistakes sometimes!"
+SAY.CHAPTERONE.296.DESSY,,"""The reason why I didn't get my umbrella is because..."""
+MENU.CHAPTERONE.297,,I overslept and was in a rush!
+MENU.CHAPTERONE.298,,I didn't ask for an umbrella!
+MENU.CHAPTERONE.299,,I just...forgot about it!
+SAY.CHAPTERONE.385.TUTORIAL,,"Within the story, the two of them will end up in a stalemate. "
+SAY.CHAPTERONE.387.TUTORIAL,,"Within the story, the two of them will end up in a stalemate. "
+SAY.CHAPTERONE.389.TUTORIAL,,"Within the story, the two of them will end up in a stalemate. "
+SAY.CHAPTERONE.373.DESSY,,"DESSY: ""soooooo...."""
+MENU.CHAPTERONE.316,,Awful weather today huh?
+MENU.CHAPTERONE.317,,you look pretty drenched
+SAY.CHAPTERONE.374.DESSY,,"""some bad weather we got here today, amirite?"""
+SAY.CHAPTERONE.376.DESSY,," ""you look really drenched."""
+SAY.CHAPTERONE.375.DESSY,,"DESSY: ""doesn't take a genius to figure out that you got drenched cuz of the rain, right?""\n "
+CHARACTER.TRAVIS,asshole\n#f2a400,TRAVIS
+CHARACTER.DESSY,"light of my life, the only good oc\nff6ff2",DESSY
+CHARACTER.TUTORIAL,,TUTORIAL
+CHARACTER.LUCAS,mr cool guy not a self insert \n#e00707\n,LUCAS

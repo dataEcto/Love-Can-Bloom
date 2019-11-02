@@ -4,8 +4,12 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
+
 namespace Fungus
 {
+    
+    
+    
     /// <summary>
     /// Supported modes for clicking through a Say Dialog.
     /// </summary>
@@ -47,6 +51,8 @@ namespace Fungus
         protected StandaloneInputModule currentStandaloneInputModule;
 
         protected Writer writer;
+
+        public KeyCode KeyToUse;
 
         protected virtual void Awake()
         {
@@ -98,7 +104,8 @@ namespace Fungus
             case ClickMode.Disabled:
                 break;
             case ClickMode.ClickAnywhere:
-                if (Input.GetMouseButtonDown(0))
+              
+                if (Input.GetKeyDown(KeyToUse))
                 {
                     SetNextLineFlag();
                 }
@@ -150,6 +157,7 @@ namespace Fungus
         public virtual void SetNextLineFlag()
         {
             nextLineInputFlag = true;
+            Debug.Log("Next Line");
         }
 
         /// <summary>
@@ -176,6 +184,7 @@ namespace Fungus
         /// </summary>
         public virtual void SetButtonClickedFlag()
         {
+            
             // Only applies if clicking is not disabled
             if (clickMode != ClickMode.Disabled)
             {
