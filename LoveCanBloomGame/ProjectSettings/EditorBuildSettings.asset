@@ -6,7 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PROLOGUE.unity
+    path: Assets/Scenes/Title Screen.unity
+    guid: 19b7287c0f532c7458aac6f55fa9aa93
+  - enabled: 1
+    path: Assets/Scenes/MEET LUCAS.unity
+    guid: 49d9f0cbc5bbd534f87229f037a409b2
+  - enabled: 1
+    path: Assets/Scenes/MEET FELICITY.unity
+    guid: f18f32e99f89f804e977efcc5656ff3e
+  - enabled: 1
+    path: Assets/Scenes/Beta Prologue.unity
     guid: 28e036c9b5e26db4485d93d6ba52e2fd
   - enabled: 1
     path: Assets/Scenes/CHAPTER 1.1.unity
@@ -14,7 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mashing.unity
     guid: d617d3be1c358404f88fa71d6b021a41
-  - enabled: 1
-    path: Assets/Scenes/CHAPTER 1 Proto.unity
-    guid: c1ba7cf7ad042f349897069fb4ad3569
   m_configObjects: {}

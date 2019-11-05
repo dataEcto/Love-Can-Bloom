@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: fefc813bfa333ad47b5768a59c1d829b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2430330852701653261
+    second: jade_sprites_0
+  - first:
+      213: -8721232439922316330
+    second: jade_sprites_1
+  - first:
+      213: -8234142686555950237
+    second: jade_sprites_2
+  - first:
+      213: -997533809899241863
+    second: jade_sprites_3
+  - first:
+      213: 2224841075628051899
+    second: jade_sprites_4
+  - first:
+      213: 1353345667708235534
+    second: jade_sprites_5
+  - first:
+      213: 8463060196864332826
+    second: jade_sprites_6
+  - first:
+      213: 8761614094013307411
+    second: jade_sprites_7
+  - first:
+      213: -4354037121323380372
+    second: jade_sprites_8
+  - first:
+      213: 6204073450095344656
+    second: jade_sprites_9
+  - first:
+      213: -2427767776545892107
+    second: jade_sprites_10
+  - first:
+      213: -3345870973780426061
+    second: jade_sprites_11
+  - first:
+      213: 502215111768578276
+    second: jade_sprites_12
+  - first:
+      213: -4968991995944690253
+    second: jade_sprites_13
+  - first:
+      213: 1208963759258356322
+    second: jade_sprites_14
+  - first:
+      213: 4735111612616178136
+    second: jade_sprites_15
+  - first:
+      213: 5198470437930440583
+    second: jade_sprites_16
+  - first:
+      213: -4964648342654140515
+    second: jade_sprites_17
+  - first:
+      213: 1079098985997808160
+    second: jade_sprites_18
+  - first:
+      213: -5012490502834733196
+    second: jade_sprites_19
+  - first:
+      213: 8847867643817817567
+    second: jade_sprites_20
+  - first:
+      213: -6449018980060395178
+    second: jade_sprites_21
+  - first:
+      213: -2434896170231625728
+    second: jade_sprites_22
+  - first:
+      213: -8185094275186564889
+    second: jade_sprites_23
+  - first:
+      213: 5335682180503277211
+    second: jade_sprites_24
+  - first:
+      213: 6943399652518394332
+    second: jade_sprites_25
+  - first:
+      213: 3406231497214582874
+    second: jade_sprites_26
+  - first:
+      213: 6563807973372146817
+    second: jade_sprites_27
+  - first:
+      213: -6945193397921734342
+    second: jade_sprites_28
+  - first:
+      213: -3893547073409051647
+    second: jade_sprites_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jade_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1480
+        width: 490
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f980b2316667b14eb118b439499a34c
+      internalID: -2430330852701653261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1480
+        width: 490
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8853390b1154b41a547d2dd5f05062
+      internalID: -8721232439922316330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1480
+        width: 490
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160758a5654dcd546bdfa61dc6c7f744
+      internalID: -8234142686555950237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1480
+        width: 490
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fcaab62d3d6d947b7812afcad1a34b
+      internalID: -997533809899241863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 1480
+        width: 487
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cbf044ad6c15b4fa8b48eff9025019
+      internalID: 2224841075628051899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 1480
+        width: 491
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102829dacfb867b4f8b56ddf766ee9c5
+      internalID: 1353345667708235534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 1480
+        width: 490
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81aad0cd8e8551341bdbcf8ea6008852
+      internalID: 8463060196864332826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 1480
+        width: 490
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e976f672ae06b4385b0be8cf747282
+      internalID: 8761614094013307411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 4065
+        y: 1480
+        width: 490
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc5cdb0f5144a94a8eed71a57e200b7
+      internalID: -4354037121323380372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 4570
+        y: 1480
+        width: 490
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085dd155d8c751a4b8c721bc0794a277
+      internalID: 6204073450095344656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 5075
+        y: 1480
+        width: 490
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2df0034ccd49749b37557872a4e4c2
+      internalID: -2427767776545892107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 5583
+        y: 1480
+        width: 490
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c72d0cb35ac4524fa0bc488a56b767b
+      internalID: -3345870973780426061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 756
+        width: 490
+        height: 697
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82342885e6c43b45ab0d64adef1ac94
+      internalID: 502215111768578276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 756
+        width: 490
+        height: 697
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9240b6d51f3f043b3c25c78e6e2698
+      internalID: -4968991995944690253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 756
+        width: 490
+        height: 697
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d959077a19458e4cbffc35577026f6a
+      internalID: 1208963759258356322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 756
+        width: 490
+        height: 697
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ac2554fd41db34499789f3d19ef3a2
+      internalID: 4735111612616178136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 756
+        width: 487
+        height: 697
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c140a69c704c155488a6b54e14c91fd9
+      internalID: 5198470437930440583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 756
+        width: 586
+        height: 697
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd32ec900495e04f986fcebb629e8c3
+      internalID: -4964648342654140515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 756
+        width: 586
+        height: 697
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b882dffb3f305e54f84ab15e0cd480ba
+      internalID: 1079098985997808160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 3751
+        y: 756
+        width: 499
+        height: 691
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52063af34d30d5c46be9cb83dc618c9b
+      internalID: -5012490502834733196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 4268
+        y: 756
+        width: 502
+        height: 691
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2eaeba86942d92498c1e83ee95a753f
+      internalID: 8847867643817817567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 4785
+        y: 756
+        width: 490
+        height: 691
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98acf5bb724cb644a81c9b9087eda6e
+      internalID: -6449018980060395178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 5293
+        y: 756
+        width: 490
+        height: 691
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d186ad3ad57d4b44b331088f94374a3
+      internalID: -2434896170231625728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 33
+        width: 490
+        height: 690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03abef0cdf2ac748ae64126ba51611b
+      internalID: -8185094275186564889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 33
+        width: 490
+        height: 690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627d8d6d707830646bf497ee4ad04c01
+      internalID: 5335682180503277211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 33
+        width: 499
+        height: 663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d8674a168986b46b81a86640cdcd70
+      internalID: 6943399652518394332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 693
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2973fdc8d4ec0e04cb4ae7a910ff4677
+      internalID: 3406231497214582874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 33
+        width: 613
+        height: 663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6160ca78d77b7de4797d4126ccde0afe
+      internalID: 6563807973372146817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 693
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560341956d18f10449b74e23d73f8b33
+      internalID: -6945193397921734342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 218
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6843de387c50944dbea0b40a55c2ece
+      internalID: -3893547073409051647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

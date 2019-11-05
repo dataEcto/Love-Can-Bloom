@@ -909,15 +909,16 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="CountDownTimer.cs" t="Include" />
           <e p="DDOL.cs" t="Include" />
+<<<<<<< HEAD
           <e p="DessyBar.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="MashGameManager.cs" t="Include" />
           <e p="PlatformDessy.cs" t="Include" />
           <e p="PlatformTravis.cs" t="Include" />
+=======
+>>>>>>> e039a53a1f1549c459bf6f5e8d0a518976e74e5a
           <e p="ScoreManager.cs" t="Include" />
-          <e p="TravisBar.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
