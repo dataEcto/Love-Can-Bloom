@@ -12,13 +12,12 @@ public class ScoreManager : MonoBehaviour
     public int travisActualScore;
     public int dessyActualScore;
 
-    public bool travisWinBranch;
-    public bool dessyWinBranch;
-    
 
     public GameObject SCORE;
 
     public Flowchart storyChart;
+
+    public GameObject rainMaker;
     
     void Start()
     {
@@ -27,13 +26,11 @@ public class ScoreManager : MonoBehaviour
             SCORE = this.gameObject;
         }
         else
-        {
-            
+        { 
             return;
         }
 
-        travisWinBranch = false;
-        dessyWinBranch = false;
+        
     }
 
     
@@ -42,18 +39,47 @@ public class ScoreManager : MonoBehaviour
         travisScoreText.text = travisActualScore.ToString();
         dessyScoreText.text = dessyActualScore.ToString();
 
-        if (travisWinBranch)
+
+        if (storyChart.GetBooleanVariable("TWin") == true)
         {
-            storyChart.ExecuteBlock("Travis Wins 1");
-            travisWinBranch = false;
-            dessyWinBranch = false;
+            if (storyChart.GetBooleanVariable("TravisPoint") == true)
+            {
+                Debug.Log("Travis get point");
+                travisActualScore++;
+                storyChart.SetBooleanVariable("TravisPoint",false);
+            }
+        }
+
+        if (storyChart.GetBooleanVariable("DWin") == true)
+        {
+            if (storyChart.GetBooleanVariable("DessyPoint") == true)
+            {
+                Debug.Log("dessy get point");
+                dessyActualScore++;
+                storyChart.SetBooleanVariable("DessyPoint",false);
+            }
+            
+        }
+
+        if (storyChart.GetBooleanVariable("DecreasePoint") == true)
+        {
+            travisActualScore--;
+            dessyActualScore--;
+            storyChart.SetBooleanVariable("DecreasePoint", false);
+        }
+
+        if (storyChart.GetBooleanVariable("DisableRain") == true)
+        {
+            rainMaker.SetActive(false);
+        }
+        else
+        {
+            rainMaker.SetActive(true);
         }
         
-        if (dessyWinBranch)
-        {
-            storyChart.ExecuteBlock("Dessy Wins 1");
-            travisWinBranch = false;
-            dessyWinBranch = false;
-        }
+
+        
+
+      
     }
 }

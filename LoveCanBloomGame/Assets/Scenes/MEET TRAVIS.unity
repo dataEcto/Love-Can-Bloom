@@ -863,7 +863,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &583083763
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

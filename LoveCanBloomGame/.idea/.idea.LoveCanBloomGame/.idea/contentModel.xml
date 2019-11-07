@@ -850,6 +850,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="DisableRain.cs" t="Include" />
           <e p="ScoreManager.cs" t="Include" />
         </e>
       </e>

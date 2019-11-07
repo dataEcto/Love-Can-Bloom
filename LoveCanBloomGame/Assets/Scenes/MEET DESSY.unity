@@ -587,7 +587,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 583083750}
+  - {fileID: 583083759}
   selectedCommands: []
   variables: []
   description: 
@@ -765,7 +765,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: CHAPTER 1.1
+    stringVal: Prologue
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &583083759
@@ -861,7 +861,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &583083763
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
