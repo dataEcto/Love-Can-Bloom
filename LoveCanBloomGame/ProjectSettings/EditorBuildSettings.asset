@@ -9,12 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 19b7287c0f532c7458aac6f55fa9aa93
   - enabled: 1
-    path: Assets/Scenes/MEET TRAVIS.unity
-    guid: cd6372de18a897a4ba130ac2b61e3617
-  - enabled: 1
-    path: Assets/Scenes/MEET DESSY.unity
-    guid: cabefad0847055048af64c4d534a7e5c
-  - enabled: 1
     path: Assets/Scenes/Prologue.unity
     guid: fc2b5f6d839d7b2438d9850a3e122b7f
   - enabled: 1

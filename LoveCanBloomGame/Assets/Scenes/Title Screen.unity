@@ -157,9 +157,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Love Battle is a 2 Player Competitive Visual Novel.\nBoth players control
-    a character.\nThe goal is to get the other player \nto confess their love first.\n\nIn
-    the following menus, you will be introduced\nto Player 1 and Player 2. \nFrom
-    there, you will decide who will play who."
+    a character.\nThe goal is to get the other player \nto confess their love first.\n\nBoth
+    of you will be introduced\nto Player 1 and Player 2. \nFrom there, you will decide
+    who will play who."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4eb5f7a5ad3c95843a3bdf9533e50bd8, type: 2}
   m_sharedMaterial: {fileID: -5330254665180320125, guid: 4eb5f7a5ad3c95843a3bdf9533e50bd8,
@@ -229,10 +229,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 28468796}
-    characterCount: 273
+    characterCount: 257
     spriteCount: 0
-    spaceCount: 52
-    wordCount: 50
+    spaceCount: 50
+    wordCount: 48
     linkCount: 0
     lineCount: 8
     pageCount: 1
@@ -1012,7 +1012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 149.56888, y: -19.87485}
+  scrollPos: {x: 125.518234, y: -171.77356}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 411
@@ -1023,8 +1023,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 418239125}
+  selectedCommands:
+  - {fileID: 418239123}
   variables: []
   description: 
   stepPause: 0
@@ -1388,7 +1390,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: MEET TRAVIS
+    stringVal: Prologue
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &418239124
