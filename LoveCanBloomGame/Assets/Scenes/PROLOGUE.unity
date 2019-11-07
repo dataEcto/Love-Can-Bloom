@@ -3031,6 +3031,7 @@ GameObject:
   - component: {fileID: 436806451}
   - component: {fileID: 436806450}
   - component: {fileID: 436806456}
+  - component: {fileID: 436806457}
   m_Layer: 0
   m_Name: Story Flowchart
   m_TagString: Untagged
@@ -3142,9 +3143,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 436806426}
+  - {fileID: 436807349}
   selectedCommands:
-  - {fileID: 436806449}
+  - {fileID: 436806457}
   variables: []
   description: 
   stepPause: 0
@@ -3906,6 +3907,23 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 0}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
+--- !u!114 &436806457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1297
+  indentLevel: 0
+  volume: 1
+  fadeDuration: 1
+  waitUntilFinished: 1
 --- !u!114 &436806546
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21431,8 +21449,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -803.1276
-    y: -109.2881
+    x: -804.6901
+    y: -110.8506
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -21443,6 +21461,7 @@ MonoBehaviour:
   eventHandler: {fileID: 436807350}
   commandList:
   - {fileID: 436806429}
+  - {fileID: 436806457}
   - {fileID: 436806456}
   - {fileID: 436807340}
   - {fileID: 436806435}
@@ -22882,7 +22901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 1
+  cancelEnabled: 0
   ignoreMenuClicks: 1
   KeyToUse: 108
 --- !u!114 &838847292
@@ -24371,7 +24390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 1
+  cancelEnabled: 0
   ignoreMenuClicks: 1
   KeyToUse: 97
 --- !u!114 &1298792153
@@ -26400,7 +26419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 1
+  cancelEnabled: 0
   ignoreMenuClicks: 1
   KeyToUse: 97
 --- !u!114 &2023652748
@@ -26775,7 +26794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 1
+  cancelEnabled: 0
   ignoreMenuClicks: 1
   KeyToUse: 108
 --- !u!114 &2069773529
@@ -28410,7 +28429,7 @@ PrefabInstance:
     - target: {fileID: 1486267584503106594, guid: 65fd5f68187fbf94db4c0722ec71589b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.300051
+      value: 14.30003
       objectReference: {fileID: 0}
     - target: {fileID: 1486267584503106594, guid: 65fd5f68187fbf94db4c0722ec71589b,
         type: 3}
